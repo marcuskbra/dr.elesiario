@@ -372,6 +372,10 @@ input[type="submit"] {
     padding: 0;
 }
 
+.no-padding-top {
+    padding-top: 0;
+}
+
 .padding-10 {
     padding: 10px;
 }
