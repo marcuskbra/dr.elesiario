@@ -10,8 +10,7 @@ $(window).load(function () {
 
 $(document).ready(function ($) {
 	"use strict";
-	
-	
+
 	
 	/*----------------------------------------------------*/
 	/*	Hidder Header
@@ -548,6 +547,14 @@ $(document).ready(function ($) {
 		
 		
 	})();
+	
+	
+	/*----------------------------------------------------*/
+	/*	Glossario Live Filter
+	/*----------------------------------------------------*/
+	if (jQuery().fastLiveFilter) {
+		$('input[type=search]').fastLiveFilter('#accordion');
+	}
 });
 
 

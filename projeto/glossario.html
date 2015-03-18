@@ -53,6 +53,7 @@
     <script type="text/javascript" src="js/jquery.nicescroll.min.js"></script>
     <script type="text/javascript" src="js/jquery.parallax.js"></script>
     <script type="text/javascript" src="js/mediaelement-and-player.js"></script>
+    <script type="text/javascript" src="js/jquery.fastLiveFilter.js"></script>
     <script type="text/javascript" src="js/script.js"></script>
 
     <!--[if IE 8]><script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
@@ -132,7 +133,15 @@
 
         <!-- Start Content -->
         <div class="row" id="content">
+        
+        
             <div class="col-sm-10 col-sm-offset-1 col-md-8 col-md-offset-2 padding-20">
+				<div class="row">
+					<div class="widget widget-search padding-20 col-xs-8 col-xs-offset-4 col-sm-6 col-sm-offset-6">
+						<input type="search" placeholder="Digite para filtrar...">
+						<button class="search-btn" ><i class="fa fa-search"></i></button>
+					</div>
+				</div>
 
                 <!-- Accordion -->
                 <div class="panel-group" id="accordion">
@@ -142,7 +151,7 @@
                         <div class="panel-heading">
                             <h4 class="panel-title">
    <a data-toggle="collapse" data-parent="#accordion" href="#collapse-1">
-    <i class="fa fa-angle-up control-icon"></i>ABDÔMEN OU ABDOME
+    <i class="fa fa-angle-down control-icon"></i>ABDÔMEN OU ABDOME
    </a>
   </h4>
                         </div>
@@ -155,7 +164,7 @@
                     <div class="panel panel-default">
                         <div class="panel-heading">
                             <h4 class="panel-title">
-   <a data-toggle="collapse" data-parent="#accordion" href="#collapse-2">
+   <a data-toggle="collapse" data-parent="#accordion" class="collapsed" href="#collapse-2">
     <i class="fa fa-angle-up control-icon"></i>ABDOMINOPERINEAL, RESSECÇÃO
    </a>
   </h4>
@@ -169,8 +178,8 @@
                     <div class="panel panel-default">
                         <div class="panel-heading">
                             <h4 class="panel-title">
-   <a data-toggle="collapse" data-parent="#accordion" href="#collapse-3">
-    <i class="fa fa-angle-up control-icon"></i>ABSCESSO
+   <a data-toggle="collapse" data-parent="#accordion" class="collapsed" href="#collapse-3">
+    <i class="fa fa-angle-down control-icon"></i>ABSCESSO
    </a>
   </h4>
                         </div>
@@ -183,8 +192,8 @@
                     <div class="panel panel-default">
                         <div class="panel-heading">
                             <h4 class="panel-title">
-   <a data-toggle="collapse" data-parent="#accordion" href="#collapse-4">
-    <i class="fa fa-angle-up control-icon"></i>ABSORÇÃO
+   <a data-toggle="collapse" data-parent="#accordion" class="collapsed" href="#collapse-4">
+    <i class="fa fa-angle-down control-icon"></i>ABSORÇÃO
    </a>
   </h4>
                         </div>
@@ -197,8 +206,8 @@
                     <div class="panel panel-default">
                         <div class="panel-heading">
                             <h4 class="panel-title">
-   <a data-toggle="collapse" data-parent="#accordion" href="#collapse-5">
-    <i class="fa fa-angle-up control-icon"></i>ÁCIDO CLORÍDRICO
+   <a data-toggle="collapse" data-parent="#accordion" class="collapsed" href="#collapse-5">
+    <i class="fa fa-angle-down control-icon"></i>ÁCIDO CLORÍDRICO
    </a>
   </h4>
                         </div>
@@ -211,8 +220,8 @@
                     <div class="panel panel-default">
                         <div class="panel-heading">
                             <h4 class="panel-title">
-   <a data-toggle="collapse" data-parent="#accordion" href="#collapse-6">
-    <i class="fa fa-angle-up control-icon"></i>ADERÊNCIA
+   <a data-toggle="collapse" data-parent="#accordion" class="collapsed" href="#collapse-6">
+    <i class="fa fa-angle-down control-icon"></i>ADERÊNCIA
    </a>
   </h4>
                         </div>
@@ -225,8 +234,8 @@
                     <div class="panel panel-default">
                         <div class="panel-heading">
                             <h4 class="panel-title">
-   <a data-toggle="collapse" data-parent="#accordion" href="#collapse-7">
-    <i class="fa fa-angle-up control-icon"></i>AGUDO
+   <a data-toggle="collapse" data-parent="#accordion" class="collapsed" href="#collapse-7">
+    <i class="fa fa-angle-down control-icon"></i>AGUDO
    </a>
   </h4>
                         </div>
@@ -239,8 +248,8 @@
                     <div class="panel panel-default">
                         <div class="panel-heading">
                             <h4 class="panel-title">
-   <a data-toggle="collapse" data-parent="#accordion" href="#collapse-8">
-    <i class="fa fa-angle-up control-icon"></i>ALBUMINA
+   <a data-toggle="collapse" data-parent="#accordion" class="collapsed" href="#collapse-8">
+    <i class="fa fa-angle-down control-icon"></i>ALBUMINA
    </a>
   </h4>
                         </div>
@@ -253,8 +262,8 @@
                     <div class="panel panel-default">
                         <div class="panel-heading">
                             <h4 class="panel-title">
-   <a data-toggle="collapse" data-parent="#accordion" href="#collapse-9">
-    <i class="fa fa-angle-up control-icon"></i>ALCOOLISMO
+   <a data-toggle="collapse" data-parent="#accordion" class="collapsed" href="#collapse-9">
+    <i class="fa fa-angle-down control-icon"></i>ALCOOLISMO
    </a>
   </h4>
                         </div>
@@ -267,8 +276,8 @@
                     <div class="panel panel-default">
                         <div class="panel-heading">
                             <h4 class="panel-title">
-   <a data-toggle="collapse" data-parent="#accordion" href="#collapse-10">
-    <i class="fa fa-angle-up control-icon"></i>AMINOÁCIDOS
+   <a data-toggle="collapse" data-parent="#accordion" class="collapsed" href="#collapse-10">
+    <i class="fa fa-angle-down control-icon"></i>AMINOÁCIDOS
    </a>
   </h4>
                         </div>
@@ -281,8 +290,8 @@
                     <div class="panel panel-default">
                         <div class="panel-heading">
                             <h4 class="panel-title">
-   <a data-toggle="collapse" data-parent="#accordion" href="#collapse-11">
-    <i class="fa fa-angle-up control-icon"></i>ANASTOMOSE
+   <a data-toggle="collapse" data-parent="#accordion" class="collapsed" href="#collapse-11">
+    <i class="fa fa-angle-down control-icon"></i>ANASTOMOSE
    </a>
   </h4>
                         </div>
@@ -295,8 +304,8 @@
                     <div class="panel panel-default">
                         <div class="panel-heading">
                             <h4 class="panel-title">
-   <a data-toggle="collapse" data-parent="#accordion" href="#collapse-12">
-    <i class="fa fa-angle-up control-icon"></i>ANEMIA
+   <a data-toggle="collapse" data-parent="#accordion" class="collapsed" href="#collapse-12">
+    <i class="fa fa-angle-down control-icon"></i>ANEMIA
    </a>
   </h4>
                         </div>
@@ -309,8 +318,8 @@
                     <div class="panel panel-default">
                         <div class="panel-heading">
                             <h4 class="panel-title">
-   <a data-toggle="collapse" data-parent="#accordion" href="#collapse-13">
-    <i class="fa fa-angle-up control-icon"></i>ANTI-ÁCIDO
+   <a data-toggle="collapse" data-parent="#accordion" class="collapsed" href="#collapse-13">
+    <i class="fa fa-angle-down control-icon"></i>ANTI-ÁCIDO
    </a>
   </h4>
                         </div>
@@ -323,8 +332,8 @@
                     <div class="panel panel-default">
                         <div class="panel-heading">
                             <h4 class="panel-title">
-   <a data-toggle="collapse" data-parent="#accordion" href="#collapse-14">
-    <i class="fa fa-angle-up control-icon"></i>ANTI-DIARRÉICO
+   <a data-toggle="collapse" data-parent="#accordion" class="collapsed" href="#collapse-14">
+    <i class="fa fa-angle-down control-icon"></i>ANTI-DIARRÉICO
    </a>
   </h4>
                         </div>
@@ -337,8 +346,8 @@
                     <div class="panel panel-default">
                         <div class="panel-heading">
                             <h4 class="panel-title">
-   <a data-toggle="collapse" data-parent="#accordion" href="#collapse-15">
-    <i class="fa fa-angle-up control-icon"></i>ANTIESPASMÓDICO
+   <a data-toggle="collapse" data-parent="#accordion" class="collapsed" href="#collapse-15">
+    <i class="fa fa-angle-down control-icon"></i>ANTIESPASMÓDICO
    </a>
   </h4>
                         </div>
@@ -351,8 +360,8 @@
                     <div class="panel panel-default">
                         <div class="panel-heading">
                             <h4 class="panel-title">
-   <a data-toggle="collapse" data-parent="#accordion" href="#collapse-16">
-    <i class="fa fa-angle-up control-icon"></i>ANTRECTOMIA
+   <a data-toggle="collapse" data-parent="#accordion" class="collapsed" href="#collapse-16">
+    <i class="fa fa-angle-down control-icon"></i>ANTRECTOMIA
    </a>
   </h4>
                         </div>
@@ -365,8 +374,8 @@
                     <div class="panel panel-default">
                         <div class="panel-heading">
                             <h4 class="panel-title">
-   <a data-toggle="collapse" data-parent="#accordion" href="#collapse-17">
-    <i class="fa fa-angle-up control-icon"></i>ÂNUS
+   <a data-toggle="collapse" data-parent="#accordion" class="collapsed" href="#collapse-17">
+    <i class="fa fa-angle-down control-icon"></i>ÂNUS
    </a>
   </h4>
                         </div>
@@ -379,8 +388,8 @@
                     <div class="panel panel-default">
                         <div class="panel-heading">
                             <h4 class="panel-title">
-   <a data-toggle="collapse" data-parent="#accordion" href="#collapse-18">
-    <i class="fa fa-angle-up control-icon"></i>ARTERIOGRAFIA
+   <a data-toggle="collapse" data-parent="#accordion" class="collapsed" href="#collapse-18">
+    <i class="fa fa-angle-down control-icon"></i>ARTERIOGRAFIA
    </a>
   </h4>
                         </div>
@@ -393,8 +402,8 @@
                     <div class="panel panel-default">
                         <div class="panel-heading">
                             <h4 class="panel-title">
-   <a data-toggle="collapse" data-parent="#accordion" href="#collapse-19">
-    <i class="fa fa-angle-up control-icon"></i>ÁRVORE BILIAR
+   <a data-toggle="collapse" data-parent="#accordion" class="collapsed" href="#collapse-19">
+    <i class="fa fa-angle-down control-icon"></i>ÁRVORE BILIAR
    </a>
   </h4>
                         </div>
@@ -407,8 +416,8 @@
                     <div class="panel panel-default">
                         <div class="panel-heading">
                             <h4 class="panel-title">
-   <a data-toggle="collapse" data-parent="#accordion" href="#collapse-20">
-    <i class="fa fa-angle-up control-icon"></i>ASCITE
+   <a data-toggle="collapse" data-parent="#accordion" class="collapsed" href="#collapse-20">
+    <i class="fa fa-angle-down control-icon"></i>ASCITE
    </a>
   </h4>
                         </div>
@@ -421,8 +430,8 @@
                     <div class="panel panel-default">
                         <div class="panel-heading">
                             <h4 class="panel-title">
-   <a data-toggle="collapse" data-parent="#accordion" href="#collapse-21">
-    <i class="fa fa-angle-up control-icon"></i>AUTO-IMUNE
+   <a data-toggle="collapse" data-parent="#accordion" class="collapsed" href="#collapse-21">
+    <i class="fa fa-angle-down control-icon"></i>AUTO-IMUNE
    </a>
   </h4>
                         </div>
@@ -435,8 +444,8 @@
                     <div class="panel panel-default">
                         <div class="panel-heading">
                             <h4 class="panel-title">
-   <a data-toggle="collapse" data-parent="#accordion" href="#collapse-22">
-    <i class="fa fa-angle-up control-icon"></i>BACTÉRIA
+   <a data-toggle="collapse" data-parent="#accordion" class="collapsed" href="#collapse-22">
+    <i class="fa fa-angle-down control-icon"></i>BACTÉRIA
    </a>
   </h4>
                         </div>
@@ -449,8 +458,8 @@
                     <div class="panel panel-default">
                         <div class="panel-heading">
                             <h4 class="panel-title">
-   <a data-toggle="collapse" data-parent="#accordion" href="#collapse-23">
-    <i class="fa fa-angle-up control-icon"></i>BÁRIO
+   <a data-toggle="collapse" data-parent="#accordion" class="collapsed" href="#collapse-23">
+    <i class="fa fa-angle-down control-icon"></i>BÁRIO
    </a>
   </h4>
                         </div>
@@ -463,8 +472,8 @@
                     <div class="panel panel-default">
                         <div class="panel-heading">
                             <h4 class="panel-title">
-   <a data-toggle="collapse" data-parent="#accordion" href="#collapse-24">
-    <i class="fa fa-angle-up control-icon"></i>BARRET, ESÔFAGO DE
+   <a data-toggle="collapse" data-parent="#accordion" class="collapsed" href="#collapse-24">
+    <i class="fa fa-angle-down control-icon"></i>BARRET, ESÔFAGO DE
    </a>
   </h4>
                         </div>
@@ -477,8 +486,8 @@
                     <div class="panel panel-default">
                         <div class="panel-heading">
                             <h4 class="panel-title">
-   <a data-toggle="collapse" data-parent="#accordion" href="#collapse-25">
-    <i class="fa fa-angle-up control-icon"></i>BENIGNO
+   <a data-toggle="collapse" data-parent="#accordion" class="collapsed" href="#collapse-25">
+    <i class="fa fa-angle-down control-icon"></i>BENIGNO
    </a>
   </h4>
                         </div>
@@ -491,8 +500,8 @@
                     <div class="panel panel-default">
                         <div class="panel-heading">
                             <h4 class="panel-title">
-   <a data-toggle="collapse" data-parent="#accordion" href="#collapse-26">
-    <i class="fa fa-angle-up control-icon"></i>BILE
+   <a data-toggle="collapse" data-parent="#accordion" class="collapsed" href="#collapse-26">
+    <i class="fa fa-angle-down control-icon"></i>BILE
    </a>
   </h4>
                         </div>
@@ -505,8 +514,8 @@
                     <div class="panel panel-default">
                         <div class="panel-heading">
                             <h4 class="panel-title">
-   <a data-toggle="collapse" data-parent="#accordion" href="#collapse-27">
-    <i class="fa fa-angle-up control-icon"></i>BILIARES, ÁCIDOS
+   <a data-toggle="collapse" data-parent="#accordion" class="collapsed" href="#collapse-27">
+    <i class="fa fa-angle-down control-icon"></i>BILIARES, ÁCIDOS
    </a>
   </h4>
                         </div>
@@ -519,8 +528,8 @@
                     <div class="panel panel-default">
                         <div class="panel-heading">
                             <h4 class="panel-title">
-   <a data-toggle="collapse" data-parent="#accordion" href="#collapse-28">
-    <i class="fa fa-angle-up control-icon"></i>BILIARES, DUCTOS
+   <a data-toggle="collapse" data-parent="#accordion" class="collapsed" href="#collapse-28">
+    <i class="fa fa-angle-down control-icon"></i>BILIARES, DUCTOS
    </a>
   </h4>
                         </div>
@@ -533,8 +542,8 @@
                     <div class="panel panel-default">
                         <div class="panel-heading">
                             <h4 class="panel-title">
-   <a data-toggle="collapse" data-parent="#accordion" href="#collapse-29">
-    <i class="fa fa-angle-up control-icon"></i>BILIAR ATRESIA
+   <a data-toggle="collapse" data-parent="#accordion" class="collapsed" href="#collapse-29">
+    <i class="fa fa-angle-down control-icon"></i>BILIAR ATRESIA
    </a>
   </h4>
                         </div>
@@ -547,8 +556,8 @@
                     <div class="panel panel-default">
                         <div class="panel-heading">
                             <h4 class="panel-title">
-   <a data-toggle="collapse" data-parent="#accordion" href="#collapse-30">
-    <i class="fa fa-angle-up control-icon"></i>BILIRRUBINA
+   <a data-toggle="collapse" data-parent="#accordion" class="collapsed" href="#collapse-30">
+    <i class="fa fa-angle-down control-icon"></i>BILIRRUBINA
    </a>
   </h4>
                         </div>
@@ -561,8 +570,8 @@
                     <div class="panel panel-default">
                         <div class="panel-heading">
                             <h4 class="panel-title">
-   <a data-toggle="collapse" data-parent="#accordion" href="#collapse-31">
-    <i class="fa fa-angle-up control-icon"></i>BIÓPSIA
+   <a data-toggle="collapse" data-parent="#accordion" class="collapsed" href="#collapse-31">
+    <i class="fa fa-angle-down control-icon"></i>BIÓPSIA
    </a>
   </h4>
                         </div>
@@ -575,8 +584,8 @@
                     <div class="panel panel-default">
                         <div class="panel-heading">
                             <h4 class="panel-title">
-   <a data-toggle="collapse" data-parent="#accordion" href="#collapse-32">
-    <i class="fa fa-angle-up control-icon"></i>BYPASS
+   <a data-toggle="collapse" data-parent="#accordion" class="collapsed" href="#collapse-32">
+    <i class="fa fa-angle-down control-icon"></i>BYPASS
    </a>
   </h4>
                         </div>
@@ -589,8 +598,8 @@
                     <div class="panel panel-default">
                         <div class="panel-heading">
                             <h4 class="panel-title">
-   <a data-toggle="collapse" data-parent="#accordion" href="#collapse-33">
-    <i class="fa fa-angle-up control-icon"></i>CARCINOMA
+   <a data-toggle="collapse" data-parent="#accordion" class="collapsed" href="#collapse-33">
+    <i class="fa fa-angle-down control-icon"></i>CARCINOMA
    </a>
   </h4>
                         </div>
@@ -603,8 +612,8 @@
                     <div class="panel panel-default">
                         <div class="panel-heading">
                             <h4 class="panel-title">
-   <a data-toggle="collapse" data-parent="#accordion" href="#collapse-34">
-    <i class="fa fa-angle-up control-icon"></i>CECO
+   <a data-toggle="collapse" data-parent="#accordion" class="collapsed" href="#collapse-34">
+    <i class="fa fa-angle-down control-icon"></i>CECO
    </a>
   </h4>
                         </div>
@@ -617,8 +626,8 @@
                     <div class="panel panel-default">
                         <div class="panel-heading">
                             <h4 class="panel-title">
-   <a data-toggle="collapse" data-parent="#accordion" href="#collapse-35">
-    <i class="fa fa-angle-up control-icon"></i>CELÍACA , DOENÇA
+   <a data-toggle="collapse" data-parent="#accordion" class="collapsed" href="#collapse-35">
+    <i class="fa fa-angle-down control-icon"></i>CELÍACA , DOENÇA
    </a>
   </h4>
                         </div>
@@ -631,8 +640,8 @@
                     <div class="panel panel-default">
                         <div class="panel-heading">
                             <h4 class="panel-title">
-   <a data-toggle="collapse" data-parent="#accordion" href="#collapse-36">
-    <i class="fa fa-angle-up control-icon"></i>CIMETIDINA
+   <a data-toggle="collapse" data-parent="#accordion" class="collapsed" href="#collapse-36">
+    <i class="fa fa-angle-down control-icon"></i>CIMETIDINA
    </a>
   </h4>
                         </div>
@@ -645,8 +654,8 @@
                     <div class="panel panel-default">
                         <div class="panel-heading">
                             <h4 class="panel-title">
-   <a data-toggle="collapse" data-parent="#accordion" href="#collapse-37">
-    <i class="fa fa-angle-up control-icon"></i>CIRROSE
+   <a data-toggle="collapse" data-parent="#accordion" class="collapsed" href="#collapse-37">
+    <i class="fa fa-angle-down control-icon"></i>CIRROSE
    </a>
   </h4>
                         </div>
@@ -659,8 +668,8 @@
                     <div class="panel panel-default">
                         <div class="panel-heading">
                             <h4 class="panel-title">
-   <a data-toggle="collapse" data-parent="#accordion" href="#collapse-38">
-    <i class="fa fa-angle-up control-icon"></i>CÍSTICO, DUCTO
+   <a data-toggle="collapse" data-parent="#accordion" class="collapsed" href="#collapse-38">
+    <i class="fa fa-angle-down control-icon"></i>CÍSTICO, DUCTO
    </a>
   </h4>
                         </div>
@@ -673,8 +682,8 @@
                     <div class="panel panel-default">
                         <div class="panel-heading">
                             <h4 class="panel-title">
-   <a data-toggle="collapse" data-parent="#accordion" href="#collapse-39">
-    <i class="fa fa-angle-up control-icon"></i>COLÁGENO
+   <a data-toggle="collapse" data-parent="#accordion" class="collapsed" href="#collapse-39">
+    <i class="fa fa-angle-down control-icon"></i>COLÁGENO
    </a>
   </h4>
                         </div>
@@ -687,8 +696,8 @@
                     <div class="panel panel-default">
                         <div class="panel-heading">
                             <h4 class="panel-title">
-   <a data-toggle="collapse" data-parent="#accordion" href="#collapse-40">
-    <i class="fa fa-angle-up control-icon"></i>COLANGIO PANCREATOGRAFIA ENDOSCÓPICA RETRÓGRADA (CPRE)
+   <a data-toggle="collapse" data-parent="#accordion" class="collapsed" href="#collapse-40">
+    <i class="fa fa-angle-down control-icon"></i>COLANGIO PANCREATOGRAFIA ENDOSCÓPICA RETRÓGRADA (CPRE)
    </a>
   </h4>
                         </div>
@@ -701,8 +710,8 @@
                     <div class="panel panel-default">
                         <div class="panel-heading">
                             <h4 class="panel-title">
-   <a data-toggle="collapse" data-parent="#accordion" href="#collapse-41">
-    <i class="fa fa-angle-up control-icon"></i>COLANGIOCARCINOMA
+   <a data-toggle="collapse" data-parent="#accordion" class="collapsed" href="#collapse-41">
+    <i class="fa fa-angle-down control-icon"></i>COLANGIOCARCINOMA
    </a>
   </h4>
                         </div>
@@ -715,8 +724,8 @@
                     <div class="panel panel-default">
                         <div class="panel-heading">
                             <h4 class="panel-title">
-   <a data-toggle="collapse" data-parent="#accordion" href="#collapse-42">
-    <i class="fa fa-angle-up control-icon"></i>COLANGIOGRAFIA TRANSPARIETOHEPÁTICA
+   <a data-toggle="collapse" data-parent="#accordion" class="collapsed" href="#collapse-42">
+    <i class="fa fa-angle-down control-icon"></i>COLANGIOGRAFIA TRANSPARIETOHEPÁTICA
    </a>
   </h4>
                         </div>
@@ -729,8 +738,8 @@
                     <div class="panel panel-default">
                         <div class="panel-heading">
                             <h4 class="panel-title">
-   <a data-toggle="collapse" data-parent="#accordion" href="#collapse-43">
-    <i class="fa fa-angle-up control-icon"></i>COLECISTECTOMIA
+   <a data-toggle="collapse" data-parent="#accordion" class="collapsed" href="#collapse-43">
+    <i class="fa fa-angle-down control-icon"></i>COLECISTECTOMIA
    </a>
   </h4>
                         </div>
@@ -743,8 +752,8 @@
                     <div class="panel panel-default">
                         <div class="panel-heading">
                             <h4 class="panel-title">
-   <a data-toggle="collapse" data-parent="#accordion" href="#collapse-44">
-    <i class="fa fa-angle-up control-icon"></i>COLECISTITE
+   <a data-toggle="collapse" data-parent="#accordion" class="collapsed" href="#collapse-44">
+    <i class="fa fa-angle-down control-icon"></i>COLECISTITE
    </a>
   </h4>
                         </div>
@@ -757,8 +766,8 @@
                     <div class="panel panel-default">
                         <div class="panel-heading">
                             <h4 class="panel-title">
-   <a data-toggle="collapse" data-parent="#accordion" href="#collapse-45">
-    <i class="fa fa-angle-up control-icon"></i>COLÉDOCO
+   <a data-toggle="collapse" data-parent="#accordion" class="collapsed" href="#collapse-45">
+    <i class="fa fa-angle-down control-icon"></i>COLÉDOCO
    </a>
   </h4>
                         </div>
@@ -771,8 +780,8 @@
                     <div class="panel panel-default">
                         <div class="panel-heading">
                             <h4 class="panel-title">
-   <a data-toggle="collapse" data-parent="#accordion" href="#collapse-46">
-    <i class="fa fa-angle-up control-icon"></i>COLEDOCOLITÍASE
+   <a data-toggle="collapse" data-parent="#accordion" class="collapsed" href="#collapse-46">
+    <i class="fa fa-angle-down control-icon"></i>COLEDOCOLITÍASE
    </a>
   </h4>
                         </div>
@@ -785,8 +794,8 @@
                     <div class="panel panel-default">
                         <div class="panel-heading">
                             <h4 class="panel-title">
-   <a data-toggle="collapse" data-parent="#accordion" href="#collapse-47">
-    <i class="fa fa-angle-up control-icon"></i>COLESTEROL
+   <a data-toggle="collapse" data-parent="#accordion" class="collapsed" href="#collapse-47">
+    <i class="fa fa-angle-down control-icon"></i>COLESTEROL
    </a>
   </h4>
                         </div>
@@ -799,8 +808,8 @@
                     <div class="panel panel-default">
                         <div class="panel-heading">
                             <h4 class="panel-title">
-   <a data-toggle="collapse" data-parent="#accordion" href="#collapse-48">
-    <i class="fa fa-angle-up control-icon"></i>COLITE
+   <a data-toggle="collapse" data-parent="#accordion" class="collapsed" href="#collapse-48">
+    <i class="fa fa-angle-down control-icon"></i>COLITE
    </a>
   </h4>
                         </div>
@@ -813,8 +822,8 @@
                     <div class="panel panel-default">
                         <div class="panel-heading">
                             <h4 class="panel-title">
-   <a data-toggle="collapse" data-parent="#accordion" href="#collapse-49">
-    <i class="fa fa-angle-up control-icon"></i>COLONOSCÓPIO
+   <a data-toggle="collapse" data-parent="#accordion" class="collapsed" href="#collapse-49">
+    <i class="fa fa-angle-down control-icon"></i>COLONOSCÓPIO
    </a>
   </h4>
                         </div>
@@ -827,8 +836,8 @@
                     <div class="panel panel-default">
                         <div class="panel-heading">
                             <h4 class="panel-title">
-   <a data-toggle="collapse" data-parent="#accordion" href="#collapse-50">
-    <i class="fa fa-angle-up control-icon"></i>CÓLON
+   <a data-toggle="collapse" data-parent="#accordion" class="collapsed" href="#collapse-50">
+    <i class="fa fa-angle-down control-icon"></i>CÓLON
    </a>
   </h4>
                         </div>
@@ -841,8 +850,8 @@
                     <div class="panel panel-default">
                         <div class="panel-heading">
                             <h4 class="panel-title">
-   <a data-toggle="collapse" data-parent="#accordion" href="#collapse-51">
-    <i class="fa fa-angle-up control-icon"></i>COLANGITE
+   <a data-toggle="collapse" data-parent="#accordion" class="collapsed" href="#collapse-51">
+    <i class="fa fa-angle-down control-icon"></i>COLANGITE
    </a>
   </h4>
                         </div>
@@ -855,8 +864,8 @@
                     <div class="panel panel-default">
                         <div class="panel-heading">
                             <h4 class="panel-title">
-   <a data-toggle="collapse" data-parent="#accordion" href="#collapse-52">
-    <i class="fa fa-angle-up control-icon"></i>COLOSTOMIA
+   <a data-toggle="collapse" data-parent="#accordion" class="collapsed" href="#collapse-52">
+    <i class="fa fa-angle-down control-icon"></i>COLOSTOMIA
    </a>
   </h4>
                         </div>
@@ -869,8 +878,8 @@
                     <div class="panel panel-default">
                         <div class="panel-heading">
                             <h4 class="panel-title">
-   <a data-toggle="collapse" data-parent="#accordion" href="#collapse-53">
-    <i class="fa fa-angle-up control-icon"></i>CROHN , DOENÇA DE (ENTERITE REGIONAL , ILEÍTE TERMINAL)
+   <a data-toggle="collapse" data-parent="#accordion" class="collapsed" href="#collapse-53">
+    <i class="fa fa-angle-down control-icon"></i>CROHN , DOENÇA DE (ENTERITE REGIONAL , ILEÍTE TERMINAL)
    </a>
   </h4>
                         </div>
@@ -883,8 +892,8 @@
                     <div class="panel panel-default">
                         <div class="panel-heading">
                             <h4 class="panel-title">
-   <a data-toggle="collapse" data-parent="#accordion" href="#collapse-54">
-    <i class="fa fa-angle-up control-icon"></i>CRÔNICO
+   <a data-toggle="collapse" data-parent="#accordion" class="collapsed" href="#collapse-54">
+    <i class="fa fa-angle-down control-icon"></i>CRÔNICO
    </a>
   </h4>
                         </div>
@@ -897,8 +906,8 @@
                     <div class="panel panel-default">
                         <div class="panel-heading">
                             <h4 class="panel-title">
-   <a data-toggle="collapse" data-parent="#accordion" href="#collapse-55">
-    <i class="fa fa-angle-up control-icon"></i>DIARRÉIA
+   <a data-toggle="collapse" data-parent="#accordion" class="collapsed" href="#collapse-55">
+    <i class="fa fa-angle-down control-icon"></i>DIARRÉIA
    </a>
   </h4>
                         </div>
@@ -911,8 +920,8 @@
                     <div class="panel panel-default">
                         <div class="panel-heading">
                             <h4 class="panel-title">
-   <a data-toggle="collapse" data-parent="#accordion" href="#collapse-56">
-    <i class="fa fa-angle-up control-icon"></i>DIGESTÃO
+   <a data-toggle="collapse" data-parent="#accordion" class="collapsed" href="#collapse-56">
+    <i class="fa fa-angle-down control-icon"></i>DIGESTÃO
    </a>
   </h4>
                         </div>
@@ -925,8 +934,8 @@
                     <div class="panel panel-default">
                         <div class="panel-heading">
                             <h4 class="panel-title">
-   <a data-toggle="collapse" data-parent="#accordion" href="#collapse-57">
-    <i class="fa fa-angle-up control-icon"></i>DILATAÇÃO
+   <a data-toggle="collapse" data-parent="#accordion" class="collapsed" href="#collapse-57">
+    <i class="fa fa-angle-down control-icon"></i>DILATAÇÃO
    </a>
   </h4>
                         </div>
@@ -939,8 +948,8 @@
                     <div class="panel panel-default">
                         <div class="panel-heading">
                             <h4 class="panel-title">
-   <a data-toggle="collapse" data-parent="#accordion" href="#collapse-58">
-    <i class="fa fa-angle-up control-icon"></i>DISPEPSIA
+   <a data-toggle="collapse" data-parent="#accordion" class="collapsed" href="#collapse-58">
+    <i class="fa fa-angle-down control-icon"></i>DISPEPSIA
    </a>
   </h4>
                         </div>
@@ -953,8 +962,8 @@
                     <div class="panel panel-default">
                         <div class="panel-heading">
                             <h4 class="panel-title">
-   <a data-toggle="collapse" data-parent="#accordion" href="#collapse-59">
-    <i class="fa fa-angle-up control-icon"></i>DISTAL
+   <a data-toggle="collapse" data-parent="#accordion" class="collapsed" href="#collapse-59">
+    <i class="fa fa-angle-down control-icon"></i>DISTAL
    </a>
   </h4>
                         </div>
@@ -967,8 +976,8 @@
                     <div class="panel panel-default">
                         <div class="panel-heading">
                             <h4 class="panel-title">
-   <a data-toggle="collapse" data-parent="#accordion" href="#collapse-60">
-    <i class="fa fa-angle-up control-icon"></i>DISTENSÃO ABDOMINAL
+   <a data-toggle="collapse" data-parent="#accordion" class="collapsed" href="#collapse-60">
+    <i class="fa fa-angle-down control-icon"></i>DISTENSÃO ABDOMINAL
    </a>
   </h4>
                         </div>
@@ -981,8 +990,8 @@
                     <div class="panel panel-default">
                         <div class="panel-heading">
                             <h4 class="panel-title">
-   <a data-toggle="collapse" data-parent="#accordion" href="#collapse-61">
-    <i class="fa fa-angle-up control-icon"></i>DIURÉTICO
+   <a data-toggle="collapse" data-parent="#accordion" class="collapsed" href="#collapse-61">
+    <i class="fa fa-angle-down control-icon"></i>DIURÉTICO
    </a>
   </h4>
                         </div>
@@ -995,8 +1004,8 @@
                     <div class="panel panel-default">
                         <div class="panel-heading">
                             <h4 class="panel-title">
-   <a data-toggle="collapse" data-parent="#accordion" href="#collapse-62">
-    <i class="fa fa-angle-up control-icon"></i>DIVERTICULITE
+   <a data-toggle="collapse" data-parent="#accordion" class="collapsed" href="#collapse-62">
+    <i class="fa fa-angle-down control-icon"></i>DIVERTICULITE
    </a>
   </h4>
                         </div>
@@ -1009,8 +1018,8 @@
                     <div class="panel panel-default">
                         <div class="panel-heading">
                             <h4 class="panel-title">
-   <a data-toggle="collapse" data-parent="#accordion" href="#collapse-63">
-    <i class="fa fa-angle-up control-icon"></i>DIVERTÍCULO
+   <a data-toggle="collapse" data-parent="#accordion" class="collapsed" href="#collapse-63">
+    <i class="fa fa-angle-down control-icon"></i>DIVERTÍCULO
    </a>
   </h4>
                         </div>
@@ -1023,8 +1032,8 @@
                     <div class="panel panel-default">
                         <div class="panel-heading">
                             <h4 class="panel-title">
-   <a data-toggle="collapse" data-parent="#accordion" href="#collapse-64">
-    <i class="fa fa-angle-up control-icon"></i>DIVERTICULOSE
+   <a data-toggle="collapse" data-parent="#accordion" class="collapsed" href="#collapse-64">
+    <i class="fa fa-angle-down control-icon"></i>DIVERTICULOSE
    </a>
   </h4>
                         </div>
@@ -1037,8 +1046,8 @@
                     <div class="panel panel-default">
                         <div class="panel-heading">
                             <h4 class="panel-title">
-   <a data-toggle="collapse" data-parent="#accordion" href="#collapse-65">
-    <i class="fa fa-angle-up control-icon"></i>DUODENO
+   <a data-toggle="collapse" data-parent="#accordion" class="collapsed" href="#collapse-65">
+    <i class="fa fa-angle-down control-icon"></i>DUODENO
    </a>
   </h4>
                         </div>
@@ -1051,8 +1060,8 @@
                     <div class="panel panel-default">
                         <div class="panel-heading">
                             <h4 class="panel-title">
-   <a data-toggle="collapse" data-parent="#accordion" href="#collapse-66">
-    <i class="fa fa-angle-up control-icon"></i>EDEMA
+   <a data-toggle="collapse" data-parent="#accordion" class="collapsed" href="#collapse-66">
+    <i class="fa fa-angle-down control-icon"></i>EDEMA
    </a>
   </h4>
                         </div>
@@ -1065,8 +1074,8 @@
                     <div class="panel panel-default">
                         <div class="panel-heading">
                             <h4 class="panel-title">
-   <a data-toggle="collapse" data-parent="#accordion" href="#collapse-67">
-    <i class="fa fa-angle-up control-icon"></i>ENDOSCOPIA
+   <a data-toggle="collapse" data-parent="#accordion" class="collapsed" href="#collapse-67">
+    <i class="fa fa-angle-down control-icon"></i>ENDOSCOPIA
    </a>
   </h4>
                         </div>
@@ -1079,8 +1088,8 @@
                     <div class="panel panel-default">
                         <div class="panel-heading">
                             <h4 class="panel-title">
-   <a data-toggle="collapse" data-parent="#accordion" href="#collapse-68">
-    <i class="fa fa-angle-up control-icon"></i>ENDOSCÓPIO
+   <a data-toggle="collapse" data-parent="#accordion" class="collapsed" href="#collapse-68">
+    <i class="fa fa-angle-down control-icon"></i>ENDOSCÓPIO
    </a>
   </h4>
                         </div>
@@ -1093,8 +1102,8 @@
                     <div class="panel panel-default">
                         <div class="panel-heading">
                             <h4 class="panel-title">
-   <a data-toggle="collapse" data-parent="#accordion" href="#collapse-69">
-    <i class="fa fa-angle-up control-icon"></i>ENEMA OPACO
+   <a data-toggle="collapse" data-parent="#accordion" class="collapsed" href="#collapse-69">
+    <i class="fa fa-angle-down control-icon"></i>ENEMA OPACO
    </a>
   </h4>
                         </div>
@@ -1107,8 +1116,8 @@
                     <div class="panel panel-default">
                         <div class="panel-heading">
                             <h4 class="panel-title">
-   <a data-toggle="collapse" data-parent="#accordion" href="#collapse-70">
-    <i class="fa fa-angle-up control-icon"></i>ENTERITE
+   <a data-toggle="collapse" data-parent="#accordion" class="collapsed" href="#collapse-70">
+    <i class="fa fa-angle-down control-icon"></i>ENTERITE
    </a>
   </h4>
                         </div>
@@ -1121,8 +1130,8 @@
                     <div class="panel panel-default">
                         <div class="panel-heading">
                             <h4 class="panel-title">
-   <a data-toggle="collapse" data-parent="#accordion" href="#collapse-71">
-    <i class="fa fa-angle-up control-icon"></i>ENTERORRAGIA
+   <a data-toggle="collapse" data-parent="#accordion" class="collapsed" href="#collapse-71">
+    <i class="fa fa-angle-down control-icon"></i>ENTERORRAGIA
    </a>
   </h4>
                         </div>
@@ -1135,8 +1144,8 @@
                     <div class="panel panel-default">
                         <div class="panel-heading">
                             <h4 class="panel-title">
-   <a data-toggle="collapse" data-parent="#accordion" href="#collapse-72">
-    <i class="fa fa-angle-up control-icon"></i>ENZIMA
+   <a data-toggle="collapse" data-parent="#accordion" class="collapsed" href="#collapse-72">
+    <i class="fa fa-angle-down control-icon"></i>ENZIMA
    </a>
   </h4>
                         </div>
@@ -1149,8 +1158,8 @@
                     <div class="panel panel-default">
                         <div class="panel-heading">
                             <h4 class="panel-title">
-   <a data-toggle="collapse" data-parent="#accordion" href="#collapse-73">
-    <i class="fa fa-angle-up control-icon"></i>EROSÃO
+   <a data-toggle="collapse" data-parent="#accordion" class="collapsed" href="#collapse-73">
+    <i class="fa fa-angle-down control-icon"></i>EROSÃO
    </a>
   </h4>
                         </div>
@@ -1163,8 +1172,8 @@
                     <div class="panel panel-default">
                         <div class="panel-heading">
                             <h4 class="panel-title">
-   <a data-toggle="collapse" data-parent="#accordion" href="#collapse-74">
-    <i class="fa fa-angle-up control-icon"></i>ESFÍNCTER ESOFAGIANO INFERIOR
+   <a data-toggle="collapse" data-parent="#accordion" class="collapsed" href="#collapse-74">
+    <i class="fa fa-angle-down control-icon"></i>ESFÍNCTER ESOFAGIANO INFERIOR
    </a>
   </h4>
                         </div>
@@ -1177,8 +1186,8 @@
                     <div class="panel panel-default">
                         <div class="panel-heading">
                             <h4 class="panel-title">
-   <a data-toggle="collapse" data-parent="#accordion" href="#collapse-75">
-    <i class="fa fa-angle-up control-icon"></i>ESOFAGITE
+   <a data-toggle="collapse" data-parent="#accordion" class="collapsed" href="#collapse-75">
+    <i class="fa fa-angle-down control-icon"></i>ESOFAGITE
    </a>
   </h4>
                         </div>
@@ -1191,8 +1200,8 @@
                     <div class="panel panel-default">
                         <div class="panel-heading">
                             <h4 class="panel-title">
-   <a data-toggle="collapse" data-parent="#accordion" href="#collapse-76">
-    <i class="fa fa-angle-up control-icon"></i>ESÔFAGO
+   <a data-toggle="collapse" data-parent="#accordion" class="collapsed" href="#collapse-76">
+    <i class="fa fa-angle-down control-icon"></i>ESÔFAGO
    </a>
   </h4>
                         </div>
@@ -1205,8 +1214,8 @@
                     <div class="panel panel-default">
                         <div class="panel-heading">
                             <h4 class="panel-title">
-   <a data-toggle="collapse" data-parent="#accordion" href="#collapse-77">
-    <i class="fa fa-angle-up control-icon"></i>ESTEATORRÉIA
+   <a data-toggle="collapse" data-parent="#accordion" class="collapsed" href="#collapse-77">
+    <i class="fa fa-angle-down control-icon"></i>ESTEATORRÉIA
    </a>
   </h4>
                         </div>
@@ -1219,8 +1228,8 @@
                     <div class="panel panel-default">
                         <div class="panel-heading">
                             <h4 class="panel-title">
-   <a data-toggle="collapse" data-parent="#accordion" href="#collapse-78">
-    <i class="fa fa-angle-up control-icon"></i>ESTENOSE
+   <a data-toggle="collapse" data-parent="#accordion" class="collapsed" href="#collapse-78">
+    <i class="fa fa-angle-down control-icon"></i>ESTENOSE
    </a>
   </h4>
                         </div>
@@ -1233,8 +1242,8 @@
                     <div class="panel panel-default">
                         <div class="panel-heading">
                             <h4 class="panel-title">
-   <a data-toggle="collapse" data-parent="#accordion" href="#collapse-79">
-    <i class="fa fa-angle-up control-icon"></i>ESTOMA
+   <a data-toggle="collapse" data-parent="#accordion" class="collapsed" href="#collapse-79">
+    <i class="fa fa-angle-down control-icon"></i>ESTOMA
    </a>
   </h4>
                         </div>
@@ -1247,8 +1256,8 @@
                     <div class="panel panel-default">
                         <div class="panel-heading">
                             <h4 class="panel-title">
-   <a data-toggle="collapse" data-parent="#accordion" href="#collapse-80">
-    <i class="fa fa-angle-up control-icon"></i>ESTÔMAGO
+   <a data-toggle="collapse" data-parent="#accordion" class="collapsed" href="#collapse-80">
+    <i class="fa fa-angle-down control-icon"></i>ESTÔMAGO
    </a>
   </h4>
                         </div>
@@ -1261,8 +1270,8 @@
                     <div class="panel panel-default">
                         <div class="panel-heading">
                             <h4 class="panel-title">
-   <a data-toggle="collapse" data-parent="#accordion" href="#collapse-81">
-    <i class="fa fa-angle-up control-icon"></i>EXCRETAR
+   <a data-toggle="collapse" data-parent="#accordion" class="collapsed" href="#collapse-81">
+    <i class="fa fa-angle-down control-icon"></i>EXCRETAR
    </a>
   </h4>
                         </div>
@@ -1275,8 +1284,8 @@
                     <div class="panel panel-default">
                         <div class="panel-heading">
                             <h4 class="panel-title">
-   <a data-toggle="collapse" data-parent="#accordion" href="#collapse-82">
-    <i class="fa fa-angle-up control-icon"></i>FERMENTAÇÃO
+   <a data-toggle="collapse" data-parent="#accordion" class="collapsed" href="#collapse-82">
+    <i class="fa fa-angle-down control-icon"></i>FERMENTAÇÃO
    </a>
   </h4>
                         </div>
@@ -1289,8 +1298,8 @@
                     <div class="panel panel-default">
                         <div class="panel-heading">
                             <h4 class="panel-title">
-   <a data-toggle="collapse" data-parent="#accordion" href="#collapse-83">
-    <i class="fa fa-angle-up control-icon"></i>FEZES
+   <a data-toggle="collapse" data-parent="#accordion" class="collapsed" href="#collapse-83">
+    <i class="fa fa-angle-down control-icon"></i>FEZES
    </a>
   </h4>
                         </div>
@@ -1303,8 +1312,8 @@
                     <div class="panel panel-default">
                         <div class="panel-heading">
                             <h4 class="panel-title">
-   <a data-toggle="collapse" data-parent="#accordion" href="#collapse-84">
-    <i class="fa fa-angle-up control-icon"></i>FIBRAS
+   <a data-toggle="collapse" data-parent="#accordion" class="collapsed" href="#collapse-84">
+    <i class="fa fa-angle-down control-icon"></i>FIBRAS
    </a>
   </h4>
                         </div>
@@ -1317,8 +1326,8 @@
                     <div class="panel panel-default">
                         <div class="panel-heading">
                             <h4 class="panel-title">
-   <a data-toggle="collapse" data-parent="#accordion" href="#collapse-85">
-    <i class="fa fa-angle-up control-icon"></i>FISSURA
+   <a data-toggle="collapse" data-parent="#accordion" class="collapsed" href="#collapse-85">
+    <i class="fa fa-angle-down control-icon"></i>FISSURA
    </a>
   </h4>
                         </div>
@@ -1331,8 +1340,8 @@
                     <div class="panel panel-default">
                         <div class="panel-heading">
                             <h4 class="panel-title">
-   <a data-toggle="collapse" data-parent="#accordion" href="#collapse-86">
-    <i class="fa fa-angle-up control-icon"></i>FÍSTULA
+   <a data-toggle="collapse" data-parent="#accordion" class="collapsed" href="#collapse-86">
+    <i class="fa fa-angle-down control-icon"></i>FÍSTULA
    </a>
   </h4>
                         </div>
@@ -1345,8 +1354,8 @@
                     <div class="panel panel-default">
                         <div class="panel-heading">
                             <h4 class="panel-title">
-   <a data-toggle="collapse" data-parent="#accordion" href="#collapse-87">
-    <i class="fa fa-angle-up control-icon"></i>FLATOS
+   <a data-toggle="collapse" data-parent="#accordion" class="collapsed" href="#collapse-87">
+    <i class="fa fa-angle-down control-icon"></i>FLATOS
    </a>
   </h4>
                         </div>
@@ -1359,8 +1368,8 @@
                     <div class="panel panel-default">
                         <div class="panel-heading">
                             <h4 class="panel-title">
-   <a data-toggle="collapse" data-parent="#accordion" href="#collapse-88">
-    <i class="fa fa-angle-up control-icon"></i>FLATULÊNCIA
+   <a data-toggle="collapse" data-parent="#accordion" class="collapsed" href="#collapse-88">
+    <i class="fa fa-angle-down control-icon"></i>FLATULÊNCIA
    </a>
   </h4>
                         </div>
@@ -1373,8 +1382,8 @@
                     <div class="panel panel-default">
                         <div class="panel-heading">
                             <h4 class="panel-title">
-   <a data-toggle="collapse" data-parent="#accordion" href="#collapse-89">
-    <i class="fa fa-angle-up control-icon"></i>GASTRECTOMIA
+   <a data-toggle="collapse" data-parent="#accordion" class="collapsed" href="#collapse-89">
+    <i class="fa fa-angle-down control-icon"></i>GASTRECTOMIA
    </a>
   </h4>
                         </div>
@@ -1387,8 +1396,8 @@
                     <div class="panel panel-default">
                         <div class="panel-heading">
                             <h4 class="panel-title">
-   <a data-toggle="collapse" data-parent="#accordion" href="#collapse-90">
-    <i class="fa fa-angle-up control-icon"></i>GÁSTRICA , ÚLCERA
+   <a data-toggle="collapse" data-parent="#accordion" class="collapsed" href="#collapse-90">
+    <i class="fa fa-angle-down control-icon"></i>GÁSTRICA , ÚLCERA
    </a>
   </h4>
                         </div>
@@ -1401,8 +1410,8 @@
                     <div class="panel panel-default">
                         <div class="panel-heading">
                             <h4 class="panel-title">
-   <a data-toggle="collapse" data-parent="#accordion" href="#collapse-91">
-    <i class="fa fa-angle-up control-icon"></i>GÁSTRICA, MUCOSA
+   <a data-toggle="collapse" data-parent="#accordion" class="collapsed" href="#collapse-91">
+    <i class="fa fa-angle-down control-icon"></i>GÁSTRICA, MUCOSA
    </a>
   </h4>
                         </div>
@@ -1415,8 +1424,8 @@
                     <div class="panel panel-default">
                         <div class="panel-heading">
                             <h4 class="panel-title">
-   <a data-toggle="collapse" data-parent="#accordion" href="#collapse-92">
-    <i class="fa fa-angle-up control-icon"></i>GÁSTRICA, RESSECÇÃO
+   <a data-toggle="collapse" data-parent="#accordion" class="collapsed" href="#collapse-92">
+    <i class="fa fa-angle-down control-icon"></i>GÁSTRICA, RESSECÇÃO
    </a>
   </h4>
                         </div>
@@ -1429,8 +1438,8 @@
                     <div class="panel panel-default">
                         <div class="panel-heading">
                             <h4 class="panel-title">
-   <a data-toggle="collapse" data-parent="#accordion" href="#collapse-93">
-    <i class="fa fa-angle-up control-icon"></i>GÁSTRICO, SUCO
+   <a data-toggle="collapse" data-parent="#accordion" class="collapsed" href="#collapse-93">
+    <i class="fa fa-angle-down control-icon"></i>GÁSTRICO, SUCO
    </a>
   </h4>
                         </div>
@@ -1443,8 +1452,8 @@
                     <div class="panel panel-default">
                         <div class="panel-heading">
                             <h4 class="panel-title">
-   <a data-toggle="collapse" data-parent="#accordion" href="#collapse-94">
-    <i class="fa fa-angle-up control-icon"></i>GÁSTRICO
+   <a data-toggle="collapse" data-parent="#accordion" class="collapsed" href="#collapse-94">
+    <i class="fa fa-angle-down control-icon"></i>GÁSTRICO
    </a>
   </h4>
                         </div>
@@ -1457,8 +1466,8 @@
                     <div class="panel panel-default">
                         <div class="panel-heading">
                             <h4 class="panel-title">
-   <a data-toggle="collapse" data-parent="#accordion" href="#collapse-95">
-    <i class="fa fa-angle-up control-icon"></i>GASTRITE
+   <a data-toggle="collapse" data-parent="#accordion" class="collapsed" href="#collapse-95">
+    <i class="fa fa-angle-down control-icon"></i>GASTRITE
    </a>
   </h4>
                         </div>
@@ -1471,8 +1480,8 @@
                     <div class="panel panel-default">
                         <div class="panel-heading">
                             <h4 class="panel-title">
-   <a data-toggle="collapse" data-parent="#accordion" href="#collapse-96">
-    <i class="fa fa-angle-up control-icon"></i>GASTROENTERITE
+   <a data-toggle="collapse" data-parent="#accordion" class="collapsed" href="#collapse-96">
+    <i class="fa fa-angle-down control-icon"></i>GASTROENTERITE
    </a>
   </h4>
                         </div>
@@ -1485,8 +1494,8 @@
                     <div class="panel panel-default">
                         <div class="panel-heading">
                             <h4 class="panel-title">
-   <a data-toggle="collapse" data-parent="#accordion" href="#collapse-97">
-    <i class="fa fa-angle-up control-icon"></i>GASTROENTEROLOGISTA
+   <a data-toggle="collapse" data-parent="#accordion" class="collapsed" href="#collapse-97">
+    <i class="fa fa-angle-down control-icon"></i>GASTROENTEROLOGISTA
    </a>
   </h4>
                         </div>
@@ -1499,8 +1508,8 @@
                     <div class="panel panel-default">
                         <div class="panel-heading">
                             <h4 class="panel-title">
-   <a data-toggle="collapse" data-parent="#accordion" href="#collapse-98">
-    <i class="fa fa-angle-up control-icon"></i>GASTROSCOPIA
+   <a data-toggle="collapse" data-parent="#accordion" class="collapsed" href="#collapse-98">
+    <i class="fa fa-angle-down control-icon"></i>GASTROSCOPIA
    </a>
   </h4>
                         </div>
@@ -1513,8 +1522,8 @@
                     <div class="panel panel-default">
                         <div class="panel-heading">
                             <h4 class="panel-title">
-   <a data-toggle="collapse" data-parent="#accordion" href="#collapse-99">
-    <i class="fa fa-angle-up control-icon"></i>GLICOSE
+   <a data-toggle="collapse" data-parent="#accordion" class="collapsed" href="#collapse-99">
+    <i class="fa fa-angle-down control-icon"></i>GLICOSE
    </a>
   </h4>
                         </div>
@@ -1527,8 +1536,8 @@
                     <div class="panel panel-default">
                         <div class="panel-heading">
                             <h4 class="panel-title">
-   <a data-toggle="collapse" data-parent="#accordion" href="#collapse-100">
-    <i class="fa fa-angle-up control-icon"></i>GLÚTEN
+   <a data-toggle="collapse" data-parent="#accordion" class="collapsed" href="#collapse-100">
+    <i class="fa fa-angle-down control-icon"></i>GLÚTEN
    </a>
   </h4>
                         </div>
@@ -1541,8 +1550,8 @@
                     <div class="panel panel-default">
                         <div class="panel-heading">
                             <h4 class="panel-title">
-   <a data-toggle="collapse" data-parent="#accordion" href="#collapse-101">
-    <i class="fa fa-angle-up control-icon"></i>HEMOCROMATOSE
+   <a data-toggle="collapse" data-parent="#accordion" class="collapsed" href="#collapse-101">
+    <i class="fa fa-angle-down control-icon"></i>HEMOCROMATOSE
    </a>
   </h4>
                         </div>
@@ -1555,8 +1564,8 @@
                     <div class="panel panel-default">
                         <div class="panel-heading">
                             <h4 class="panel-title">
-   <a data-toggle="collapse" data-parent="#accordion" href="#collapse-102">
-    <i class="fa fa-angle-up control-icon"></i>HEMORRÓIDAS
+   <a data-toggle="collapse" data-parent="#accordion" class="collapsed" href="#collapse-102">
+    <i class="fa fa-angle-down control-icon"></i>HEMORRÓIDAS
    </a>
   </h4>
                         </div>
@@ -1569,8 +1578,8 @@
                     <div class="panel panel-default">
                         <div class="panel-heading">
                             <h4 class="panel-title">
-   <a data-toggle="collapse" data-parent="#accordion" href="#collapse-103">
-    <i class="fa fa-angle-up control-icon"></i>HEPATITE
+   <a data-toggle="collapse" data-parent="#accordion" class="collapsed" href="#collapse-103">
+    <i class="fa fa-angle-down control-icon"></i>HEPATITE
    </a>
   </h4>
                         </div>
@@ -1583,8 +1592,8 @@
                     <div class="panel panel-default">
                         <div class="panel-heading">
                             <h4 class="panel-title">
-   <a data-toggle="collapse" data-parent="#accordion" href="#collapse-104">
-    <i class="fa fa-angle-up control-icon"></i>HEPATITE B
+   <a data-toggle="collapse" data-parent="#accordion" class="collapsed" href="#collapse-104">
+    <i class="fa fa-angle-down control-icon"></i>HEPATITE B
    </a>
   </h4>
                         </div>
@@ -1597,8 +1606,8 @@
                     <div class="panel panel-default">
                         <div class="panel-heading">
                             <h4 class="panel-title">
-   <a data-toggle="collapse" data-parent="#accordion" href="#collapse-105">
-    <i class="fa fa-angle-up control-icon"></i>HEPATOLOGISTA
+   <a data-toggle="collapse" data-parent="#accordion" class="collapsed" href="#collapse-105">
+    <i class="fa fa-angle-down control-icon"></i>HEPATOLOGISTA
    </a>
   </h4>
                         </div>
@@ -1611,8 +1620,8 @@
                     <div class="panel panel-default">
                         <div class="panel-heading">
                             <h4 class="panel-title">
-   <a data-toggle="collapse" data-parent="#accordion" href="#collapse-106">
-    <i class="fa fa-angle-up control-icon"></i>HEREDITÁRIO
+   <a data-toggle="collapse" data-parent="#accordion" class="collapsed" href="#collapse-106">
+    <i class="fa fa-angle-down control-icon"></i>HEREDITÁRIO
    </a>
   </h4>
                         </div>
@@ -1625,8 +1634,8 @@
                     <div class="panel panel-default">
                         <div class="panel-heading">
                             <h4 class="panel-title">
-   <a data-toggle="collapse" data-parent="#accordion" href="#collapse-107">
-    <i class="fa fa-angle-up control-icon"></i>HÉRNIA DE HIATO
+   <a data-toggle="collapse" data-parent="#accordion" class="collapsed" href="#collapse-107">
+    <i class="fa fa-angle-down control-icon"></i>HÉRNIA DE HIATO
    </a>
   </h4>
                         </div>
@@ -1639,8 +1648,8 @@
                     <div class="panel panel-default">
                         <div class="panel-heading">
                             <h4 class="panel-title">
-   <a data-toggle="collapse" data-parent="#accordion" href="#collapse-108">
-    <i class="fa fa-angle-up control-icon"></i>ICTERÍCIA
+   <a data-toggle="collapse" data-parent="#accordion" class="collapsed" href="#collapse-108">
+    <i class="fa fa-angle-down control-icon"></i>ICTERÍCIA
    </a>
   </h4>
                         </div>
@@ -1653,8 +1662,8 @@
                     <div class="panel panel-default">
                         <div class="panel-heading">
                             <h4 class="panel-title">
-   <a data-toggle="collapse" data-parent="#accordion" href="#collapse-109">
-    <i class="fa fa-angle-up control-icon"></i>ÍLEO
+   <a data-toggle="collapse" data-parent="#accordion" class="collapsed" href="#collapse-109">
+    <i class="fa fa-angle-down control-icon"></i>ÍLEO
    </a>
   </h4>
                         </div>
@@ -1667,8 +1676,8 @@
                     <div class="panel panel-default">
                         <div class="panel-heading">
                             <h4 class="panel-title">
-   <a data-toggle="collapse" data-parent="#accordion" href="#collapse-110">
-    <i class="fa fa-angle-up control-icon"></i>ILEOSTOMIA
+   <a data-toggle="collapse" data-parent="#accordion" class="collapsed" href="#collapse-110">
+    <i class="fa fa-angle-down control-icon"></i>ILEOSTOMIA
    </a>
   </h4>
                         </div>
@@ -1681,8 +1690,8 @@
                     <div class="panel panel-default">
                         <div class="panel-heading">
                             <h4 class="panel-title">
-   <a data-toggle="collapse" data-parent="#accordion" href="#collapse-111">
-    <i class="fa fa-angle-up control-icon"></i>IMPACÇÃO
+   <a data-toggle="collapse" data-parent="#accordion" class="collapsed" href="#collapse-111">
+    <i class="fa fa-angle-down control-icon"></i>IMPACÇÃO
    </a>
   </h4>
                         </div>
@@ -1695,8 +1704,8 @@
                     <div class="panel panel-default">
                         <div class="panel-heading">
                             <h4 class="panel-title">
-   <a data-toggle="collapse" data-parent="#accordion" href="#collapse-112">
-    <i class="fa fa-angle-up control-icon"></i>INDIGESTÃO
+   <a data-toggle="collapse" data-parent="#accordion" class="collapsed" href="#collapse-112">
+    <i class="fa fa-angle-down control-icon"></i>INDIGESTÃO
    </a>
   </h4>
                         </div>
@@ -1709,8 +1718,8 @@
                     <div class="panel panel-default">
                         <div class="panel-heading">
                             <h4 class="panel-title">
-   <a data-toggle="collapse" data-parent="#accordion" href="#collapse-113">
-    <i class="fa fa-angle-up control-icon"></i>INFLAMAÇÃO
+   <a data-toggle="collapse" data-parent="#accordion" class="collapsed" href="#collapse-113">
+    <i class="fa fa-angle-down control-icon"></i>INFLAMAÇÃO
    </a>
   </h4>
                         </div>
@@ -1723,8 +1732,8 @@
                     <div class="panel panel-default">
                         <div class="panel-heading">
                             <h4 class="panel-title">
-   <a data-toggle="collapse" data-parent="#accordion" href="#collapse-114">
-    <i class="fa fa-angle-up control-icon"></i>INSTESTINO DELGADO
+   <a data-toggle="collapse" data-parent="#accordion" class="collapsed" href="#collapse-114">
+    <i class="fa fa-angle-down control-icon"></i>INSTESTINO DELGADO
    </a>
   </h4>
                         </div>
@@ -1737,8 +1746,8 @@
                     <div class="panel panel-default">
                         <div class="panel-heading">
                             <h4 class="panel-title">
-   <a data-toggle="collapse" data-parent="#accordion" href="#collapse-115">
-    <i class="fa fa-angle-up control-icon"></i>INTESTINAL , FLORA
+   <a data-toggle="collapse" data-parent="#accordion" class="collapsed" href="#collapse-115">
+    <i class="fa fa-angle-down control-icon"></i>INTESTINAL , FLORA
    </a>
   </h4>
                         </div>
@@ -1751,8 +1760,8 @@
                     <div class="panel panel-default">
                         <div class="panel-heading">
                             <h4 class="panel-title">
-   <a data-toggle="collapse" data-parent="#accordion" href="#collapse-116">
-    <i class="fa fa-angle-up control-icon"></i>INTESTINAL , TRÂNSITO
+   <a data-toggle="collapse" data-parent="#accordion" class="collapsed" href="#collapse-116">
+    <i class="fa fa-angle-down control-icon"></i>INTESTINAL , TRÂNSITO
    </a>
   </h4>
                         </div>
@@ -1765,8 +1774,8 @@
                     <div class="panel panel-default">
                         <div class="panel-heading">
                             <h4 class="panel-title">
-   <a data-toggle="collapse" data-parent="#accordion" href="#collapse-117">
-    <i class="fa fa-angle-up control-icon"></i>INTESTINAL, MUCOSA
+   <a data-toggle="collapse" data-parent="#accordion" class="collapsed" href="#collapse-117">
+    <i class="fa fa-angle-down control-icon"></i>INTESTINAL, MUCOSA
    </a>
   </h4>
                         </div>
@@ -1779,8 +1788,8 @@
                     <div class="panel panel-default">
                         <div class="panel-heading">
                             <h4 class="panel-title">
-   <a data-toggle="collapse" data-parent="#accordion" href="#collapse-118">
-    <i class="fa fa-angle-up control-icon"></i>IRRIGAÇÃO
+   <a data-toggle="collapse" data-parent="#accordion" class="collapsed" href="#collapse-118">
+    <i class="fa fa-angle-down control-icon"></i>IRRIGAÇÃO
    </a>
   </h4>
                         </div>
@@ -1793,8 +1802,8 @@
                     <div class="panel panel-default">
                         <div class="panel-heading">
                             <h4 class="panel-title">
-   <a data-toggle="collapse" data-parent="#accordion" href="#collapse-119">
-    <i class="fa fa-angle-up control-icon"></i>IRRITÁVEL , CÓLON
+   <a data-toggle="collapse" data-parent="#accordion" class="collapsed" href="#collapse-119">
+    <i class="fa fa-angle-down control-icon"></i>IRRITÁVEL , CÓLON
    </a>
   </h4>
                         </div>
@@ -1807,8 +1816,8 @@
                     <div class="panel panel-default">
                         <div class="panel-heading">
                             <h4 class="panel-title">
-   <a data-toggle="collapse" data-parent="#accordion" href="#collapse-120">
-    <i class="fa fa-angle-up control-icon"></i>JEJUNO
+   <a data-toggle="collapse" data-parent="#accordion" class="collapsed" href="#collapse-120">
+    <i class="fa fa-angle-down control-icon"></i>JEJUNO
    </a>
   </h4>
                         </div>
@@ -1821,8 +1830,8 @@
                     <div class="panel panel-default">
                         <div class="panel-heading">
                             <h4 class="panel-title">
-   <a data-toggle="collapse" data-parent="#accordion" href="#collapse-121">
-    <i class="fa fa-angle-up control-icon"></i>LACTASE
+   <a data-toggle="collapse" data-parent="#accordion" class="collapsed" href="#collapse-121">
+    <i class="fa fa-angle-down control-icon"></i>LACTASE
    </a>
   </h4>
                         </div>
@@ -1835,8 +1844,8 @@
                     <div class="panel panel-default">
                         <div class="panel-heading">
                             <h4 class="panel-title">
-   <a data-toggle="collapse" data-parent="#accordion" href="#collapse-122">
-    <i class="fa fa-angle-up control-icon"></i>LACTOSE, INTOLERÂNCIA
+   <a data-toggle="collapse" data-parent="#accordion" class="collapsed" href="#collapse-122">
+    <i class="fa fa-angle-down control-icon"></i>LACTOSE, INTOLERÂNCIA
    </a>
   </h4>
                         </div>
@@ -1849,8 +1858,8 @@
                     <div class="panel panel-default">
                         <div class="panel-heading">
                             <h4 class="panel-title">
-   <a data-toggle="collapse" data-parent="#accordion" href="#collapse-123">
-    <i class="fa fa-angle-up control-icon"></i>LAPAROSCOPIA
+   <a data-toggle="collapse" data-parent="#accordion" class="collapsed" href="#collapse-123">
+    <i class="fa fa-angle-down control-icon"></i>LAPAROSCOPIA
    </a>
   </h4>
                         </div>
@@ -1863,8 +1872,8 @@
                     <div class="panel panel-default">
                         <div class="panel-heading">
                             <h4 class="panel-title">
-   <a data-toggle="collapse" data-parent="#accordion" href="#collapse-124">
-    <i class="fa fa-angle-up control-icon"></i>LECITINA
+   <a data-toggle="collapse" data-parent="#accordion" class="collapsed" href="#collapse-124">
+    <i class="fa fa-angle-down control-icon"></i>LECITINA
    </a>
   </h4>
                         </div>
@@ -1877,8 +1886,8 @@
                     <div class="panel panel-default">
                         <div class="panel-heading">
                             <h4 class="panel-title">
-   <a data-toggle="collapse" data-parent="#accordion" href="#collapse-125">
-    <i class="fa fa-angle-up control-icon"></i>LESÃO
+   <a data-toggle="collapse" data-parent="#accordion" class="collapsed" href="#collapse-125">
+    <i class="fa fa-angle-down control-icon"></i>LESÃO
    </a>
   </h4>
                         </div>
@@ -1891,8 +1900,8 @@
                     <div class="panel panel-default">
                         <div class="panel-heading">
                             <h4 class="panel-title">
-   <a data-toggle="collapse" data-parent="#accordion" href="#collapse-126">
-    <i class="fa fa-angle-up control-icon"></i>LÚMEN (LUZ)
+   <a data-toggle="collapse" data-parent="#accordion" class="collapsed" href="#collapse-126">
+    <i class="fa fa-angle-down control-icon"></i>LÚMEN (LUZ)
    </a>
   </h4>
                         </div>
@@ -1905,8 +1914,8 @@
                     <div class="panel panel-default">
                         <div class="panel-heading">
                             <h4 class="panel-title">
-   <a data-toggle="collapse" data-parent="#accordion" href="#collapse-127">
-    <i class="fa fa-angle-up control-icon"></i>MALABSORÇÃO
+   <a data-toggle="collapse" data-parent="#accordion" class="collapsed" href="#collapse-127">
+    <i class="fa fa-angle-down control-icon"></i>MALABSORÇÃO
    </a>
   </h4>
                         </div>
@@ -1919,8 +1928,8 @@
                     <div class="panel panel-default">
                         <div class="panel-heading">
                             <h4 class="panel-title">
-   <a data-toggle="collapse" data-parent="#accordion" href="#collapse-128">
-    <i class="fa fa-angle-up control-icon"></i>MALIGNO
+   <a data-toggle="collapse" data-parent="#accordion" class="collapsed" href="#collapse-128">
+    <i class="fa fa-angle-down control-icon"></i>MALIGNO
    </a>
   </h4>
                         </div>
@@ -1933,8 +1942,8 @@
                     <div class="panel panel-default">
                         <div class="panel-heading">
                             <h4 class="panel-title">
-   <a data-toggle="collapse" data-parent="#accordion" href="#collapse-129">
-    <i class="fa fa-angle-up control-icon"></i>MATURAÇÃO
+   <a data-toggle="collapse" data-parent="#accordion" class="collapsed" href="#collapse-129">
+    <i class="fa fa-angle-down control-icon"></i>MATURAÇÃO
    </a>
   </h4>
                         </div>
@@ -1947,8 +1956,8 @@
                     <div class="panel panel-default">
                         <div class="panel-heading">
                             <h4 class="panel-title">
-   <a data-toggle="collapse" data-parent="#accordion" href="#collapse-130">
-    <i class="fa fa-angle-up control-icon"></i>MELENA
+   <a data-toggle="collapse" data-parent="#accordion" class="collapsed" href="#collapse-130">
+    <i class="fa fa-angle-down control-icon"></i>MELENA
    </a>
   </h4>
                         </div>
@@ -1961,8 +1970,8 @@
                     <div class="panel panel-default">
                         <div class="panel-heading">
                             <h4 class="panel-title">
-   <a data-toggle="collapse" data-parent="#accordion" href="#collapse-131">
-    <i class="fa fa-angle-up control-icon"></i>METABOLISMO
+   <a data-toggle="collapse" data-parent="#accordion" class="collapsed" href="#collapse-131">
+    <i class="fa fa-angle-down control-icon"></i>METABOLISMO
    </a>
   </h4>
                         </div>
@@ -1975,8 +1984,8 @@
                     <div class="panel panel-default">
                         <div class="panel-heading">
                             <h4 class="panel-title">
-   <a data-toggle="collapse" data-parent="#accordion" href="#collapse-132">
-    <i class="fa fa-angle-up control-icon"></i>METABÓLITO
+   <a data-toggle="collapse" data-parent="#accordion" class="collapsed" href="#collapse-132">
+    <i class="fa fa-angle-down control-icon"></i>METABÓLITO
    </a>
   </h4>
                         </div>
@@ -1989,8 +1998,8 @@
                     <div class="panel panel-default">
                         <div class="panel-heading">
                             <h4 class="panel-title">
-   <a data-toggle="collapse" data-parent="#accordion" href="#collapse-133">
-    <i class="fa fa-angle-up control-icon"></i>METÁSTASE
+   <a data-toggle="collapse" data-parent="#accordion" class="collapsed" href="#collapse-133">
+    <i class="fa fa-angle-down control-icon"></i>METÁSTASE
    </a>
   </h4>
                         </div>
@@ -2003,8 +2012,8 @@
                     <div class="panel panel-default">
                         <div class="panel-heading">
                             <h4 class="panel-title">
-   <a data-toggle="collapse" data-parent="#accordion" href="#collapse-134">
-    <i class="fa fa-angle-up control-icon"></i>MOTILIDADE
+   <a data-toggle="collapse" data-parent="#accordion" class="collapsed" href="#collapse-134">
+    <i class="fa fa-angle-down control-icon"></i>MOTILIDADE
    </a>
   </h4>
                         </div>
@@ -2017,8 +2026,8 @@
                     <div class="panel panel-default">
                         <div class="panel-heading">
                             <h4 class="panel-title">
-   <a data-toggle="collapse" data-parent="#accordion" href="#collapse-135">
-    <i class="fa fa-angle-up control-icon"></i>NUTRIÇÃO PARENTERAL TOTAL
+   <a data-toggle="collapse" data-parent="#accordion" class="collapsed" href="#collapse-135">
+    <i class="fa fa-angle-down control-icon"></i>NUTRIÇÃO PARENTERAL TOTAL
    </a>
   </h4>
                         </div>
@@ -2031,8 +2040,8 @@
                     <div class="panel panel-default">
                         <div class="panel-heading">
                             <h4 class="panel-title">
-   <a data-toggle="collapse" data-parent="#accordion" href="#collapse-136">
-    <i class="fa fa-angle-up control-icon"></i>OBSTIPAÇÃO
+   <a data-toggle="collapse" data-parent="#accordion" class="collapsed" href="#collapse-136">
+    <i class="fa fa-angle-down control-icon"></i>OBSTIPAÇÃO
    </a>
   </h4>
                         </div>
@@ -2045,8 +2054,8 @@
                     <div class="panel panel-default">
                         <div class="panel-heading">
                             <h4 class="panel-title">
-   <a data-toggle="collapse" data-parent="#accordion" href="#collapse-137">
-    <i class="fa fa-angle-up control-icon"></i>OBSTRUÇÃO
+   <a data-toggle="collapse" data-parent="#accordion" class="collapsed" href="#collapse-137">
+    <i class="fa fa-angle-down control-icon"></i>OBSTRUÇÃO
    </a>
   </h4>
                         </div>
@@ -2059,8 +2068,8 @@
                     <div class="panel panel-default">
                         <div class="panel-heading">
                             <h4 class="panel-title">
-   <a data-toggle="collapse" data-parent="#accordion" href="#collapse-138">
-    <i class="fa fa-angle-up control-icon"></i>OCULTO, SANGUE
+   <a data-toggle="collapse" data-parent="#accordion" class="collapsed" href="#collapse-138">
+    <i class="fa fa-angle-down control-icon"></i>OCULTO, SANGUE
    </a>
   </h4>
                         </div>
@@ -2073,8 +2082,8 @@
                     <div class="panel panel-default">
                         <div class="panel-heading">
                             <h4 class="panel-title">
-   <a data-toggle="collapse" data-parent="#accordion" href="#collapse-139">
-    <i class="fa fa-angle-up control-icon"></i>PÂNCREAS
+   <a data-toggle="collapse" data-parent="#accordion" class="collapsed" href="#collapse-139">
+    <i class="fa fa-angle-down control-icon"></i>PÂNCREAS
    </a>
   </h4>
                         </div>
@@ -2087,8 +2096,8 @@
                     <div class="panel panel-default">
                         <div class="panel-heading">
                             <h4 class="panel-title">
-   <a data-toggle="collapse" data-parent="#accordion" href="#collapse-140">
-    <i class="fa fa-angle-up control-icon"></i>PANCREATITE
+   <a data-toggle="collapse" data-parent="#accordion" class="collapsed" href="#collapse-140">
+    <i class="fa fa-angle-down control-icon"></i>PANCREATITE
    </a>
   </h4>
                         </div>
@@ -2101,8 +2110,8 @@
                     <div class="panel panel-default">
                         <div class="panel-heading">
                             <h4 class="panel-title">
-   <a data-toggle="collapse" data-parent="#accordion" href="#collapse-141">
-    <i class="fa fa-angle-up control-icon"></i>PAPILOTOMIA ENDOCÓPICA
+   <a data-toggle="collapse" data-parent="#accordion" class="collapsed" href="#collapse-141">
+    <i class="fa fa-angle-down control-icon"></i>PAPILOTOMIA ENDOCÓPICA
    </a>
   </h4>
                         </div>
@@ -2115,8 +2124,8 @@
                     <div class="panel panel-default">
                         <div class="panel-heading">
                             <h4 class="panel-title">
-   <a data-toggle="collapse" data-parent="#accordion" href="#collapse-142">
-    <i class="fa fa-angle-up control-icon"></i>PEPSINA
+   <a data-toggle="collapse" data-parent="#accordion" class="collapsed" href="#collapse-142">
+    <i class="fa fa-angle-down control-icon"></i>PEPSINA
    </a>
   </h4>
                         </div>
@@ -2129,8 +2138,8 @@
                     <div class="panel panel-default">
                         <div class="panel-heading">
                             <h4 class="panel-title">
-   <a data-toggle="collapse" data-parent="#accordion" href="#collapse-143">
-    <i class="fa fa-angle-up control-icon"></i>PÉPTICA, ÚLCERA
+   <a data-toggle="collapse" data-parent="#accordion" class="collapsed" href="#collapse-143">
+    <i class="fa fa-angle-down control-icon"></i>PÉPTICA, ÚLCERA
    </a>
   </h4>
                         </div>
@@ -2143,8 +2152,8 @@
                     <div class="panel panel-default">
                         <div class="panel-heading">
                             <h4 class="panel-title">
-   <a data-toggle="collapse" data-parent="#accordion" href="#collapse-144">
-    <i class="fa fa-angle-up control-icon"></i>PERFURAÇÃO
+   <a data-toggle="collapse" data-parent="#accordion" class="collapsed" href="#collapse-144">
+    <i class="fa fa-angle-down control-icon"></i>PERFURAÇÃO
    </a>
   </h4>
                         </div>
@@ -2157,8 +2166,8 @@
                     <div class="panel panel-default">
                         <div class="panel-heading">
                             <h4 class="panel-title">
-   <a data-toggle="collapse" data-parent="#accordion" href="#collapse-145">
-    <i class="fa fa-angle-up control-icon"></i>PERFURADA, ÚLCERA
+   <a data-toggle="collapse" data-parent="#accordion" class="collapsed" href="#collapse-145">
+    <i class="fa fa-angle-down control-icon"></i>PERFURADA, ÚLCERA
    </a>
   </h4>
                         </div>
@@ -2171,8 +2180,8 @@
                     <div class="panel panel-default">
                         <div class="panel-heading">
                             <h4 class="panel-title">
-   <a data-toggle="collapse" data-parent="#accordion" href="#collapse-146">
-    <i class="fa fa-angle-up control-icon"></i>PERINEAL
+   <a data-toggle="collapse" data-parent="#accordion" class="collapsed" href="#collapse-146">
+    <i class="fa fa-angle-down control-icon"></i>PERINEAL
    </a>
   </h4>
                         </div>
@@ -2185,8 +2194,8 @@
                     <div class="panel panel-default">
                         <div class="panel-heading">
                             <h4 class="panel-title">
-   <a data-toggle="collapse" data-parent="#accordion" href="#collapse-147">
-    <i class="fa fa-angle-up control-icon"></i>PERÍNEO
+   <a data-toggle="collapse" data-parent="#accordion" class="collapsed" href="#collapse-147">
+    <i class="fa fa-angle-down control-icon"></i>PERÍNEO
    </a>
   </h4>
                         </div>
@@ -2199,8 +2208,8 @@
                     <div class="panel panel-default">
                         <div class="panel-heading">
                             <h4 class="panel-title">
-   <a data-toggle="collapse" data-parent="#accordion" href="#collapse-148">
-    <i class="fa fa-angle-up control-icon"></i>PERISTALSE, PERISTALTISMO
+   <a data-toggle="collapse" data-parent="#accordion" class="collapsed" href="#collapse-148">
+    <i class="fa fa-angle-down control-icon"></i>PERISTALSE, PERISTALTISMO
    </a>
   </h4>
                         </div>
@@ -2213,8 +2222,8 @@
                     <div class="panel panel-default">
                         <div class="panel-heading">
                             <h4 class="panel-title">
-   <a data-toggle="collapse" data-parent="#accordion" href="#collapse-149">
-    <i class="fa fa-angle-up control-icon"></i>PERITÔNIO
+   <a data-toggle="collapse" data-parent="#accordion" class="collapsed" href="#collapse-149">
+    <i class="fa fa-angle-down control-icon"></i>PERITÔNIO
    </a>
   </h4>
                         </div>
@@ -2227,8 +2236,8 @@
                     <div class="panel panel-default">
                         <div class="panel-heading">
                             <h4 class="panel-title">
-   <a data-toggle="collapse" data-parent="#accordion" href="#collapse-150">
-    <i class="fa fa-angle-up control-icon"></i>PERITONITE
+   <a data-toggle="collapse" data-parent="#accordion" class="collapsed" href="#collapse-150">
+    <i class="fa fa-angle-down control-icon"></i>PERITONITE
    </a>
   </h4>
                         </div>
@@ -2241,8 +2250,8 @@
                     <div class="panel panel-default">
                         <div class="panel-heading">
                             <h4 class="panel-title">
-   <a data-toggle="collapse" data-parent="#accordion" href="#collapse-151">
-    <i class="fa fa-angle-up control-icon"></i>PILORO
+   <a data-toggle="collapse" data-parent="#accordion" class="collapsed" href="#collapse-151">
+    <i class="fa fa-angle-down control-icon"></i>PILORO
    </a>
   </h4>
                         </div>
@@ -2255,8 +2264,8 @@
                     <div class="panel panel-default">
                         <div class="panel-heading">
                             <h4 class="panel-title">
-   <a data-toggle="collapse" data-parent="#accordion" href="#collapse-152">
-    <i class="fa fa-angle-up control-icon"></i>PÓLIPOS
+   <a data-toggle="collapse" data-parent="#accordion" class="collapsed" href="#collapse-152">
+    <i class="fa fa-angle-down control-icon"></i>PÓLIPOS
    </a>
   </h4>
                         </div>
@@ -2269,8 +2278,8 @@
                     <div class="panel panel-default">
                         <div class="panel-heading">
                             <h4 class="panel-title">
-   <a data-toggle="collapse" data-parent="#accordion" href="#collapse-153">
-    <i class="fa fa-angle-up control-icon"></i>POLIPOSE FAMILIAR
+   <a data-toggle="collapse" data-parent="#accordion" class="collapsed" href="#collapse-153">
+    <i class="fa fa-angle-down control-icon"></i>POLIPOSE FAMILIAR
    </a>
   </h4>
                         </div>
@@ -2283,8 +2292,8 @@
                     <div class="panel panel-default">
                         <div class="panel-heading">
                             <h4 class="panel-title">
-   <a data-toggle="collapse" data-parent="#accordion" href="#collapse-154">
-    <i class="fa fa-angle-up control-icon"></i>PROCTITE
+   <a data-toggle="collapse" data-parent="#accordion" class="collapsed" href="#collapse-154">
+    <i class="fa fa-angle-down control-icon"></i>PROCTITE
    </a>
   </h4>
                         </div>
@@ -2297,8 +2306,8 @@
                     <div class="panel panel-default">
                         <div class="panel-heading">
                             <h4 class="panel-title">
-   <a data-toggle="collapse" data-parent="#accordion" href="#collapse-155">
-    <i class="fa fa-angle-up control-icon"></i>PROCTOLOGISTA
+   <a data-toggle="collapse" data-parent="#accordion" class="collapsed" href="#collapse-155">
+    <i class="fa fa-angle-down control-icon"></i>PROCTOLOGISTA
    </a>
   </h4>
                         </div>
@@ -2311,8 +2320,8 @@
                     <div class="panel panel-default">
                         <div class="panel-heading">
                             <h4 class="panel-title">
-   <a data-toggle="collapse" data-parent="#accordion" href="#collapse-156">
-    <i class="fa fa-angle-up control-icon"></i>PROGNÓSTICO
+   <a data-toggle="collapse" data-parent="#accordion" class="collapsed" href="#collapse-156">
+    <i class="fa fa-angle-down control-icon"></i>PROGNÓSTICO
    </a>
   </h4>
                         </div>
@@ -2325,8 +2334,8 @@
                     <div class="panel panel-default">
                         <div class="panel-heading">
                             <h4 class="panel-title">
-   <a data-toggle="collapse" data-parent="#accordion" href="#collapse-157">
-    <i class="fa fa-angle-up control-icon"></i>PROLAPSO
+   <a data-toggle="collapse" data-parent="#accordion" class="collapsed" href="#collapse-157">
+    <i class="fa fa-angle-down control-icon"></i>PROLAPSO
    </a>
   </h4>
                         </div>
@@ -2339,8 +2348,8 @@
                     <div class="panel panel-default">
                         <div class="panel-heading">
                             <h4 class="panel-title">
-   <a data-toggle="collapse" data-parent="#accordion" href="#collapse-158">
-    <i class="fa fa-angle-up control-icon"></i>PROXIMAL
+   <a data-toggle="collapse" data-parent="#accordion" class="collapsed" href="#collapse-158">
+    <i class="fa fa-angle-down control-icon"></i>PROXIMAL
    </a>
   </h4>
                         </div>
@@ -2353,8 +2362,8 @@
                     <div class="panel panel-default">
                         <div class="panel-heading">
                             <h4 class="panel-title">
-   <a data-toggle="collapse" data-parent="#accordion" href="#collapse-159">
-    <i class="fa fa-angle-up control-icon"></i>QUIMO
+   <a data-toggle="collapse" data-parent="#accordion" class="collapsed" href="#collapse-159">
+    <i class="fa fa-angle-down control-icon"></i>QUIMO
    </a>
   </h4>
                         </div>
@@ -2367,8 +2376,8 @@
                     <div class="panel panel-default">
                         <div class="panel-heading">
                             <h4 class="panel-title">
-   <a data-toggle="collapse" data-parent="#accordion" href="#collapse-160">
-    <i class="fa fa-angle-up control-icon"></i>REFLUXO
+   <a data-toggle="collapse" data-parent="#accordion" class="collapsed" href="#collapse-160">
+    <i class="fa fa-angle-down control-icon"></i>REFLUXO
    </a>
   </h4>
                         </div>
@@ -2381,8 +2390,8 @@
                     <div class="panel panel-default">
                         <div class="panel-heading">
                             <h4 class="panel-title">
-   <a data-toggle="collapse" data-parent="#accordion" href="#collapse-161">
-    <i class="fa fa-angle-up control-icon"></i>REGURGITAÇÃO
+   <a data-toggle="collapse" data-parent="#accordion" class="collapsed" href="#collapse-161">
+    <i class="fa fa-angle-down control-icon"></i>REGURGITAÇÃO
    </a>
   </h4>
                         </div>
@@ -2395,8 +2404,8 @@
                     <div class="panel panel-default">
                         <div class="panel-heading">
                             <h4 class="panel-title">
-   <a data-toggle="collapse" data-parent="#accordion" href="#collapse-162">
-    <i class="fa fa-angle-up control-icon"></i>RESSECÇÃO
+   <a data-toggle="collapse" data-parent="#accordion" class="collapsed" href="#collapse-162">
+    <i class="fa fa-angle-down control-icon"></i>RESSECÇÃO
    </a>
   </h4>
                         </div>
@@ -2409,8 +2418,8 @@
                     <div class="panel panel-default">
                         <div class="panel-heading">
                             <h4 class="panel-title">
-   <a data-toggle="collapse" data-parent="#accordion" href="#collapse-163">
-    <i class="fa fa-angle-up control-icon"></i>RETO
+   <a data-toggle="collapse" data-parent="#accordion" class="collapsed" href="#collapse-163">
+    <i class="fa fa-angle-down control-icon"></i>RETO
    </a>
   </h4>
                         </div>
@@ -2423,8 +2432,8 @@
                     <div class="panel panel-default">
                         <div class="panel-heading">
                             <h4 class="panel-title">
-   <a data-toggle="collapse" data-parent="#accordion" href="#collapse-164">
-    <i class="fa fa-angle-up control-icon"></i>RETOSSIGMOIDOSCOPIA
+   <a data-toggle="collapse" data-parent="#accordion" class="collapsed" href="#collapse-164">
+    <i class="fa fa-angle-down control-icon"></i>RETOSSIGMOIDOSCOPIA
    </a>
   </h4>
                         </div>
@@ -2437,8 +2446,8 @@
                     <div class="panel panel-default">
                         <div class="panel-heading">
                             <h4 class="panel-title">
-   <a data-toggle="collapse" data-parent="#accordion" href="#collapse-165">
-    <i class="fa fa-angle-up control-icon"></i>SÍNDROME DA FLEXURA ESPLÊNICA
+   <a data-toggle="collapse" data-parent="#accordion" class="collapsed" href="#collapse-165">
+    <i class="fa fa-angle-down control-icon"></i>SÍNDROME DA FLEXURA ESPLÊNICA
    </a>
   </h4>
                         </div>
@@ -2451,8 +2460,8 @@
                     <div class="panel panel-default">
                         <div class="panel-heading">
                             <h4 class="panel-title">
-   <a data-toggle="collapse" data-parent="#accordion" href="#collapse-166">
-    <i class="fa fa-angle-up control-icon"></i>TOXINA
+   <a data-toggle="collapse" data-parent="#accordion" class="collapsed" href="#collapse-166">
+    <i class="fa fa-angle-down control-icon"></i>TOXINA
    </a>
   </h4>
                         </div>
@@ -2465,8 +2474,8 @@
                     <div class="panel panel-default">
                         <div class="panel-heading">
                             <h4 class="panel-title">
-   <a data-toggle="collapse" data-parent="#accordion" href="#collapse-167">
-    <i class="fa fa-angle-up control-icon"></i>TRANSPLANTE
+   <a data-toggle="collapse" data-parent="#accordion" class="collapsed" href="#collapse-167">
+    <i class="fa fa-angle-down control-icon"></i>TRANSPLANTE
    </a>
   </h4>
                         </div>
@@ -2479,8 +2488,8 @@
                     <div class="panel panel-default">
                         <div class="panel-heading">
                             <h4 class="panel-title">
-   <a data-toggle="collapse" data-parent="#accordion" href="#collapse-168">
-    <i class="fa fa-angle-up control-icon"></i>TROPICAL, SPRU
+   <a data-toggle="collapse" data-parent="#accordion" class="collapsed" href="#collapse-168">
+    <i class="fa fa-angle-down control-icon"></i>TROPICAL, SPRU
    </a>
   </h4>
                         </div>
@@ -2493,8 +2502,8 @@
                     <div class="panel panel-default">
                         <div class="panel-heading">
                             <h4 class="panel-title">
-   <a data-toggle="collapse" data-parent="#accordion" href="#collapse-169">
-    <i class="fa fa-angle-up control-icon"></i>TUMOR
+   <a data-toggle="collapse" data-parent="#accordion" class="collapsed" href="#collapse-169">
+    <i class="fa fa-angle-down control-icon"></i>TUMOR
    </a>
   </h4>
                         </div>
@@ -2507,8 +2516,8 @@
                     <div class="panel panel-default">
                         <div class="panel-heading">
                             <h4 class="panel-title">
-   <a data-toggle="collapse" data-parent="#accordion" href="#collapse-170">
-    <i class="fa fa-angle-up control-icon"></i>ÚLCERA
+   <a data-toggle="collapse" data-parent="#accordion" class="collapsed" href="#collapse-170">
+    <i class="fa fa-angle-down control-icon"></i>ÚLCERA
    </a>
   </h4>
                         </div>
@@ -2521,8 +2530,8 @@
                     <div class="panel panel-default">
                         <div class="panel-heading">
                             <h4 class="panel-title">
-   <a data-toggle="collapse" data-parent="#accordion" href="#collapse-171">
-    <i class="fa fa-angle-up control-icon"></i>ULCERATIVA, COLITE
+   <a data-toggle="collapse" data-parent="#accordion" class="collapsed" href="#collapse-171">
+    <i class="fa fa-angle-down control-icon"></i>ULCERATIVA, COLITE
    </a>
   </h4>
                         </div>
@@ -2535,8 +2544,8 @@
                     <div class="panel panel-default">
                         <div class="panel-heading">
                             <h4 class="panel-title">
-   <a data-toggle="collapse" data-parent="#accordion" href="#collapse-172">
-    <i class="fa fa-angle-up control-icon"></i>ULTRASSOM (ULTRASSONOGRAFIA, ECOGRAFIA)
+   <a data-toggle="collapse" data-parent="#accordion" class="collapsed" href="#collapse-172">
+    <i class="fa fa-angle-down control-icon"></i>ULTRASSOM (ULTRASSONOGRAFIA, ECOGRAFIA)
    </a>
   </h4>
                         </div>
@@ -2549,8 +2558,8 @@
                     <div class="panel panel-default">
                         <div class="panel-heading">
                             <h4 class="panel-title">
-   <a data-toggle="collapse" data-parent="#accordion" href="#collapse-173">
-    <i class="fa fa-angle-up control-icon"></i>VAGO, NERVO
+   <a data-toggle="collapse" data-parent="#accordion" class="collapsed" href="#collapse-173">
+    <i class="fa fa-angle-down control-icon"></i>VAGO, NERVO
    </a>
   </h4>
                         </div>
@@ -2563,8 +2572,8 @@
                     <div class="panel panel-default">
                         <div class="panel-heading">
                             <h4 class="panel-title">
-   <a data-toggle="collapse" data-parent="#accordion" href="#collapse-174">
-    <i class="fa fa-angle-up control-icon"></i>VAGOTOMIA
+   <a data-toggle="collapse" data-parent="#accordion" class="collapsed" href="#collapse-174">
+    <i class="fa fa-angle-down control-icon"></i>VAGOTOMIA
    </a>
   </h4>
                         </div>
@@ -2577,8 +2586,8 @@
                     <div class="panel panel-default">
                         <div class="panel-heading">
                             <h4 class="panel-title">
-   <a data-toggle="collapse" data-parent="#accordion" href="#collapse-175">
-    <i class="fa fa-angle-up control-icon"></i>VARIZES DO ESÔFAGO
+   <a data-toggle="collapse" data-parent="#accordion" class="collapsed" href="#collapse-175">
+    <i class="fa fa-angle-down control-icon"></i>VARIZES DO ESÔFAGO
    </a>
   </h4>
                         </div>
@@ -2591,8 +2600,8 @@
                     <div class="panel panel-default">
                         <div class="panel-heading">
                             <h4 class="panel-title">
-   <a data-toggle="collapse" data-parent="#accordion" href="#collapse-176">
-    <i class="fa fa-angle-up control-icon"></i>VARIZES
+   <a data-toggle="collapse" data-parent="#accordion" class="collapsed" href="#collapse-176">
+    <i class="fa fa-angle-down control-icon"></i>VARIZES
    </a>
   </h4>
                         </div>
@@ -2605,8 +2614,8 @@
                     <div class="panel panel-default">
                         <div class="panel-heading">
                             <h4 class="panel-title">
-   <a data-toggle="collapse" data-parent="#accordion" href="#collapse-177">
-    <i class="fa fa-angle-up control-icon"></i>WILSON, DOENÇA
+   <a data-toggle="collapse" data-parent="#accordion" class="collapsed" href="#collapse-177">
+    <i class="fa fa-angle-down control-icon"></i>WILSON, DOENÇA
    </a>
   </h4>
                         </div>
@@ -2638,7 +2647,7 @@
                         <ul class="footer-nav">
                             <li><a href="#">Glossário</a>
                             </li>
-                            <li><a href="#">Contato</a>
+                            <li><a href="contato.html">Contato</a>
                             </li>
                         </ul>
                     </div>

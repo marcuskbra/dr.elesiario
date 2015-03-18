@@ -1472,6 +1472,10 @@ input[type="submit"] {
 	color: #666;
 }
 
+.panel-title a:focus {
+	text-decoration: none;
+}
+
 .panel-title a .control-icon {
 	position: absolute;
 	top: 50%;
