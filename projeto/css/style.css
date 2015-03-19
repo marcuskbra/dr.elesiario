@@ -384,6 +384,12 @@ input[type="submit"] {
     padding: 20px;
 }
 
+.vertical-align {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+}
 
 /*------------------------------------------*/
 /*	     02 - Header & Navigation
@@ -2943,6 +2949,7 @@ ul.icons-list li i {
     -moz-transition: all 0.3s ease-in-out;
     -webkit-transition: all 0.3s ease-in-out;
     -o-transition: all 0.3s ease-in-out;
+    min-height: 191px;
 }
 
 .portfolio-item:hover .portfolio-border {
@@ -2955,6 +2962,7 @@ ul.icons-list li i {
 .portfolio-item .portfolio-thumb {
 	position: relative;
 	overflow: hidden;
+    text-align: center;
 }
 
 .portfolio-item .portfolio-thumb .thumb-overlay {
@@ -5364,35 +5372,6 @@ ul.footer-nav li a:hover {
 }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 .services-2 {
   position:relative;
   text-align:center;
@@ -5521,11 +5500,6 @@ ul.footer-nav li a:hover {
 
 
 
-
-
-
-
-
 /* Counter */
 
 .counter-item {
@@ -5553,11 +5527,6 @@ ul.footer-nav li a:hover {
 }
 
 
-
-
-
-
-
 .parallax{
   width:100%; 
   padding: 0;
@@ -5577,15 +5546,6 @@ ul.footer-nav li a:hover {
 	background-position: 50% 0px !important; 
 	background-attachment: scroll !important;
 }
-
-
-
-
-
-
-
-
-
 
 .services-3 {
   position:relative;
