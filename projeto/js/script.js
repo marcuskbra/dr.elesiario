@@ -471,7 +471,7 @@ $(document).ready(function ($) {
 			delay: 50,
 			sync: false,
 			shuffle: false,
-			reverse: true,
+//			reverse: true,
 		},
 		out: {
 			effect: 'fadeOutUp',
@@ -479,7 +479,7 @@ $(document).ready(function ($) {
 			delay: 50,
 			sync: false,
 			shuffle: false,
-			reverse: true,
+//			reverse: true,
 		},
 	});
 	
