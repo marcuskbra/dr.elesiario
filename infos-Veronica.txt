@@ -2,7 +2,106 @@ Foto do medico
 Fotos da clinica 
  
 Copiar do site da Gastros - www.clinicagastros.com.br
-Hospitais
-parceiros
-glossario
-Cirurgias
+Hospitais - ok
+parceiros - ok
+glossario - ok
+Cirurgias - Contém alguns videos, ver como fazer no site novo
+
+
+
+Exames - gastros
+
+
+Endoscopia Digestiva
+
+A técnica da endoscopia permite visualizar a mucosa do tubo digestivo, e realizar detalhadas avaliações, assim como coletar materiais ou mesmo realizar pequenas cirurgias.
+
+Colonoscopia
+
+A colonoscopia é um exame endoscópico que permite a visualização do interior do cólon. O instrumento utilizado é um tubo flexível. Na extremidade final desse tubo existe uma mini câmera, que transmite as imagens do interior do cólon e do íleo-terminal (parte final do intestino fino).
+
+Retossigmoidoscopia Flexível
+
+A Retossigmoidoscopia Flexível possibilita o estudo da mucosa do reto e da parte distal do intestino grosso. São exames realizados na investigação de sangramentos retais, pesquisa de diarréias, alterações do hábito intestinal e dores abdominais.
+
+Colangiopancreatografia Retrógrada Endoscópica 
+
+A colangiopancreatografia retrógrada endoscópica é um exame de diagnóstico que associa raios-X e endoscopia e permite avaliar os canais biliares, pancreáticos e vesícula biliar.
+
+
+Eletrocardiograma 
+
+O eletrocardiograma (ECG) é um exame de saúde na área de cardiologia no qual é feito o registro da variação dos potenciais elétricos gerados pela atividade elétrica do coração.
+
+Prova de função pulmonar
+
+Prova de função pulmonar é um teste que permite aferir o fluxo de ar nas vias aéreas ou brônquios (os tubos que transportam o ar para os pulmões), comparando os resultados com os obtidos por pessoas saudáveis com a mesma idade e altura.
+
+
+==========================================
+
+Especialidades
+
+Gastroenterologia
+
+É a especialidade que trata das patologias do aparelho digestivo. A gastroenterologia, além de intervir no tratamento das doenças comuns ao aparelho digestivo, também vem assumindo um caráter mais preventivo, como orientações no consumo de dietas mais saudáveis, entre outros.
+
+
+Cirurgia do Aparelho Digestivo
+
+A Cirurgia do Aparelho Digestivo é a técnica, sob o ponto de vista cirúrgico, sobre as doenças que são originárias dos órgãos responsáveis pela digestão dos alimentos.
+
+
+Proctologia
+
+Responsável pelo diagnóstico e tratamento das afecções que acometem o trato digestório terminal, como intestino grosso, reto e ânus.
+
+
+Vídeo Laparoscopia
+
+É a técnica cirúrgica mais moderna que se tem no momento,podendo ser utilizada em vários tipos de cirurgia. Permite o exame da porção anterior do abdômen e é muito útil no diagnóstico de inúmeras moléstias intra-abdominais.
+
+
+Cardiologia
+
+Cardiologia é o ramo da medicina que estuda o funcionamento, a anatomia e as doenças do coração, e de todos os componentes do sistema cardiovascular. Sintomas relacionados a lesões de certas partes do coração ou do aparelho circulatório são examinados pelo cardiologista.
+
+
+Nutrição
+
+O nutricionista tem como função contribuir para a saúde dos pacientes, cabendo a ele(a) a produção do conhecimento sobre alimentação e a nutrição.
+
+
+Psicologia
+
+Auxílio comportamental dos pacientes, ajudando-os nos processos do cotidiano, sempre da melhor forma possível.
+
+
+Cirurgia de Obesidade / Balão Intragastrico 
+
+http://www.clinicagastros.com.br/balao_intragastrico.htm
+
+
+Hepatologia
+
+Estuda e realiza tratamento dos sintomas das Doenças do Fígado.
+
+
+Cirurgia de Obesidade
+
+Tratamento para Obesidade Mórbida e doenças do Sistema Digestivo.
+
+
+Pneumologia
+
+A especialidade médica a qual é responsável pelo tratamento das patologias das vias aéreas inferioras.
+
+
+Fisioterapia
+
+Conjunto de técnicas usadas no tratamento e na prevenção de doenças e lesões.
+
+
+Acupuntura
+
+Tratamento complementar para problemas digestivos: de caráter funcional, gastrites, problemas esofágicos leves, problemas intestinais e distensão abdominal.
