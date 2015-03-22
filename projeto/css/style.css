@@ -286,6 +286,14 @@ input[type="submit"] {
 	color: #c4c4c4;
 }
 
+.gray-section  {
+	padding-left: 15px;
+	padding-right: 15px;
+	border-top: 1px solid #eee;
+	border-bottom: 1px solid #eee;
+	background: #f9f9f9;
+}
+
 #container {
     background-color: #fff;
 }
@@ -2702,22 +2710,7 @@ ul.icons-list li i {
 	-webkit-border-radius: 2px;
     -moz-border-radius: 2px;
     -o-border-radius: 2px;
-	background-color: #444;
-	z-index: 9994;
-}
-
-.team-member .member-photo .member-name span {
-	position: absolute;
-	top: 90%;
-	right: 0;
-	color: #fff;
-	font-size: 13px;
-	font-weight: 300;
-	padding: 1px 10px;
-	border-radius: 2px;
-	-webkit-border-radius: 2px;
-    -moz-border-radius: 2px;
-    -o-border-radius: 2px;
+	z-index: 94;
 }
 
 .team-member .member-info {
@@ -2725,7 +2718,7 @@ ul.icons-list li i {
 }
 
 .team-member .member-socail {
-	//text-align: center;
+	text-align: center;
 }
 
 .team-member .member-socail a i {
