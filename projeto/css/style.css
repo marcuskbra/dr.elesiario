@@ -5498,6 +5498,7 @@ ul.footer-nav li a:hover {
 .counter-item {
   position:relative;
   text-align:center;
+  padding: 10px;
 }
 
 .counter-item h5 {
