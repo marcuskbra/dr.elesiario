@@ -5444,8 +5444,9 @@ ul.footer-nav li a:hover {
 
 .progress {
   overflow: visible;
-  height: 18px;
+  height: 10px;
   margin-bottom: 10px;
+  margin-left: 10px;
   background-color: #f9f9f9;
   border-radius: 0px;
   -webkit-box-shadow: none;
@@ -5468,9 +5469,9 @@ ul.footer-nav li a:hover {
  .progress-bar-span { 
  opacity:1;
  position:absolute;
- top:-5px;
+ top:-7px;
  background:#ACB2B8;
- padding:3px 10px;
+ padding:2px 10px;
  color:#FFF;
  border-radius: 0px;
  right:0px;
@@ -5614,4 +5615,4 @@ ul.footer-nav li a:hover {
 
 .navbar-collapse {
 	max-height: 340px;
-}
+}83
