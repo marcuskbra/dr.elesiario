@@ -2812,7 +2812,7 @@ ul.icons-list li i {
 }
 
 .team-member.modern .progress-label {
-	font-size: 11px;
+	text-align: left;
 	line-height: 2em;
 }
 
