@@ -1517,7 +1517,12 @@ input[type="submit"] {
 	border-top: none;
 }
 
-
+.panel-body ul {
+	list-style: disc;
+	margin-top: 0;
+	margin-bottom: 10px;
+	padding-left: 40px
+}
 
 /*************** Dropcaps ***************/
 
