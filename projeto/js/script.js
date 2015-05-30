@@ -124,7 +124,7 @@ $(document).ready(function ($) {
 	/*----------------------------------------------------*/
 	
 	////------- Touch Slider
-	var time = 4.4,
+	/*var time = 4.4,
 		$progressBar,
 		$bar,
 		$elem,
@@ -200,6 +200,9 @@ $(document).ready(function ($) {
     function interval() {
 		if(isPause === false){
 			percentTime += 1 / time;
+			$bar = $("<div>",{
+				id:"bar"
+			});
 			$bar.css({
 				width: percentTime+"%"
 			});
@@ -216,7 +219,7 @@ $(document).ready(function ($) {
     function moved(){
       clearTimeout(tick);
       start();
-    }
+    }*/
 	
 	
 	
