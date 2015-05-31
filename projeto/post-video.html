@@ -6,7 +6,7 @@
 <head>
 
     <!-- Basic -->
-    <title>Dr. Elesiário | Blog</title>
+    <title>Dr. Elesiário | Blog | Post</title>
 
     <!-- Define Charset -->
     <meta charset="utf-8">
@@ -16,7 +16,15 @@
 
     <!-- Page Description and Author -->
     <meta name="description" content="Dr. Elesiário - Portfólio do Médico especializado em Cirurgia Bariátrica. Informações sobre suas clínicas, cirurgias e atendimentos.">
-    <meta name="author" content="Marcus Carvalho">
+    
+	<meta property="og:title" content="Colocação do Balão Intragástrico" />
+	<meta property="og:site_name" content="Dr. Elesiario - Blog"/>
+	<meta property="og:url" content="http://drelesiario.esy.es/post-video.html" />
+	<meta property="fb:app_id" content="894657523925629" />
+	<meta property="og:type" content="article" />
+	<meta property="og:locale" content="pt_BR" />
+	<meta property="og:image" content="http://drelesiario.esy.es/images/profile.jpg" />
+	<meta property="og:description" content="Video com a demonstração de como é realizada a colocação do Balão Intragástrico" />
 
     <!-- Bootstrap CSS  -->
     <link rel="stylesheet" href="http://cdn.jsdelivr.net/bootstrap/3.3.2/css/bootstrap.min.css" type="text/css" media="screen">
@@ -61,6 +69,24 @@
 </head>
 
 <body>
+<script>
+  window.fbAsyncInit = function() {
+    FB.init({
+      appId      : '894657523925629',
+      xfbml      : true,
+      version    : 'v2.3'
+    });
+  };
+
+  (function(d, s, id){
+     var js, fjs = d.getElementsByTagName(s)[0];
+     if (d.getElementById(id)) {return;}
+     js = d.createElement(s); js.id = id;
+     js.src = "http://connect.facebook.net/pt_BR/sdk.js";
+     fjs.parentNode.insertBefore(js, fjs);
+   }(document, 'script', 'facebook-jssdk'));
+</script>
+
 
     <!-- Start Header Section -->
     <div class="hidden-header"></div>
@@ -115,12 +141,13 @@
 			<div class="container">
                 <div class="col-md-6">
                     <h2>Blog</h2>
-                    <p></p>
+                    <p>Vídeo</p>
                 </div>
                 <div class="col-md-6">
                     <ul class="breadcrumbs">
                         <li><a href="index.html">Home</a></li>
-                        <li>Blog</li>
+                        <li><a href="blog.html">Blog</a></li>
+                        <li>Vídeo</li>
                     </ul>
                 </div>
 			</div>
@@ -133,9 +160,9 @@
 		<!-- Start Content -->
 		<div id="content">
 			<div class="padding-10">
-				<div class="row blog-page">
+				<div class="row blog-post-page">
 					
-					<!-- Start Blog Posts -->
+					<!-- Start Single Post Area -->
 					<div class="col-md-9 blog-box">
 						
 						<!-- Start Post -->
@@ -147,189 +174,53 @@
 							<!-- Post Content -->
 							<div class="post-content">
 								<div class="post-type"><i class="fa fa-play"></i></div>
-								<h2><a href="post-video.html">Colocação do Balão Intragástrico</a></h2>
+								<h2><a href="single-post.html">Colocação do Balão Intragástrico</a></h2>
 								<ul class="post-meta">
 									<li><a href="#">Clínica Gastro's</a></li>
 									<li>11 de maio de 2015</li>
 								</ul>
+								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 								<p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.</p>
-								<a class="main-button" href="post-video.html">Leia Mais... <i class="fa fa-angle-right"></i></a>
-							</div>
-						</div>
-						<!-- End Post -->
-						
-						<!-- Start Post -->
-						<div class="blog-post video-post">
-							<!-- Post Video -->
-							<div class="post-head">
-                                <iframe width="800" height="450" src="https://www.youtube.com/embed/UhUPpS2Eshw" frameborder="0" allowfullscreen></iframe>
-							</div>
-							<!-- Post Content -->
-							<div class="post-content">
-								<div class="post-type"><i class="fa fa-play"></i></div>
-								<h2><a href="#">Demonstração da retirada do Balão intragástrico</a></h2>
-								<ul class="post-meta">
-									<li><a href="#">Clínica Gastro's</a></li>
-									<li>11 de maio de 2015</li>
-								</ul>
+								<p>Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur.</p>
 								<p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.</p>
-								<a class="main-button" href="#">Leia Mais... <i class="fa fa-angle-right"></i></a>
+								<p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae. Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores alias consequatur aut perferendis doloribus asperiores repellat.</p>
 							</div>
-						</div>
-						<!-- End Post -->
-                        
-						<!-- Start Post -->
-						<div class="blog-post gallery-post">
-							<!-- Post Gallery -->
-							<div class="post-head">
-								<div class="post-slider touch-slider">
-									<div class="item">
-										<a class="lightbox" title="Recepção" href="images/portfolio/clinica_1.jpg" data-lightbox-gallery="gallery1">
-											<div class="thumb-overlay"><i class="fa fa-arrows-alt"></i></div>
-											<img class="img-responsive center-block" src="images/portfolio/clinica_1.jpg">
-										</a>
-									</div>
-									<div class="item">
-										<a class="lightbox" title="Sala de Espera" href="images/portfolio/clinica_2.jpg" data-lightbox-gallery="gallery1">
-											<div class="thumb-overlay"><i class="fa fa-arrows-alt"></i></div>
-											<img class="img-responsive center-block" src="images/portfolio/clinica_2.jpg">
-										</a>
-									</div>
-									<div class="item">
-										<a class="lightbox" title="Recepção" href="images/portfolio/clinica_3.jpg" data-lightbox-gallery="gallery1">
-											<div class="thumb-overlay"><i class="fa fa-arrows-alt"></i></div>
-											<img class="img-responsive center-block" src="images/portfolio/clinica_3.jpg">
-										</a>
-									</div>
+							<div class="post-bottom clearfix">
+								<div
+									class="fb-like"
+									data-share="true"
+									data-width="100%"
+									data-version="v2.3"
+									data-show-faces="true">
+								</div>
+								<div class="fb-comments" 
+									data-href="http://drelesiario.esy.es/post-video.html" 
+									data-numposts="5"
+									data-width="100%"
+									data-version="v2.3"
+									data-colorscheme="light">
 								</div>
 							</div>
-							<!-- Post Content -->
-							<div class="post-content">
-								<div class="post-type"><i class=" fa fa-picture-o"></i></div>
-								<h2><a href="#">Nova Clínica.</a></h2>
-								<ul class="post-meta">
-									<li><a href="#">Dr. Elesiario</a></li>
-									<li>11 de maio de 2015</li>
-								</ul>
-								<p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.</p>
-								<a class="main-button" href="#">Leia Mais... <i class="fa fa-angle-right"></i></a>
-							</div>
-						</div>
-						<!-- End Post -->
-                        						
-						<!-- Start Post -->
-						<div class="blog-post standard-post">
-							<!-- Post Content -->
-							<div class="post-content">
-								<div class="post-type"><i class="fa fa-pencil"></i></div>
-								<h2><a href="#">Balão Intragástrico</a></h2>
-								<ul class="post-meta">
-									<li><a href="#">Dr. Elesiario</a></li>
-									<li>11 de maio de 2015</li>
-								</ul>
-								<p>Dispositivo seguro e eficaz para redução do peso, projetado para proporcionar uma sensação de saciedade precoce, 
-										que resulta em menor ingestão de alimentos e facilita o aprendizado de novas rotinas de alimentação, é alternativa não cirúrgica para o tratamento da obesidade.</p>
-								<a class="main-button" href="#">Leia Mais... <i class="fa fa-angle-right"></i></a>
-							</div>
-						</div>
-						<!-- End Post -->
-												
-						<!-- Start Post -->
-						<div class="blog-post quote-post">
-							<!-- Post Content -->
-							<div class="post-content">
-								<div class="post-type"><i class="fa fa-quote-left"></i></div>
-								<div class="qoute-box">
-									<h2>Não se esqueça que o amor, tal como a medicina, é só a arte de ajudar a natureza.</h2>
-									<div class="qoute-author">Pierre Ambroise François Choderlos de Laclos</div>
-								</div>
-								<ul class="post-meta">
-									<li>11 de maio de 2015</li>
-								</ul>
-							</div>
-						</div>
-						<!-- End Post -->
-						
-						<!-- Start Post -->
-						<div class="blog-post image-post">
-							<!-- Post Thumb -->
-							<div class="post-head">
-								<a class="lightbox" title="This is an image title" href="images/blog-01.jpg">
-									<div class="thumb-overlay"><i class="fa fa-arrows-alt"></i></div>
-									<img alt="" src="images/blog-01.jpg">
-								</a>
-							</div>
-							<!-- Post Content -->
-							<div class="post-content">
-								<div class="post-type"><i class="fa fa-picture-o"></i></div>
-								<h2><a href="#">Image Box With Nice Lightbox</a></h2>
-								<ul class="post-meta">
-									<li>By <a href="#">iThemesLab</a></li>
-									<li>December 30, 2013</li>
-									<li><a href="#">WordPress</a>, <a href="#">Graphic</a></li>
-									<li><a href="#">4 Comments</a></li>
-								</ul>
-								<p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.</p>
-								<a class="main-button" href="#">Leia Mais... <i class="fa fa-angle-right"></i></a>
-							</div>
-						</div>
-						<!-- End Post -->
-						
-						<!-- Start Post -->
-						<div class="blog-post standard-post">
-							<!-- Post Thumb -->
-							<div class="post-head">
-								<a href="#">
-									<div class="thumb-overlay"><i class="fa fa-arrows-alt"></i></div>
-									<img alt="" src="images/blog-05.jpg">
-								</a>
-							</div>
-							<!-- Post Content -->
-							<div class="post-content">
-								<div class="post-type"><i class="fa fa-picture-o"></i></div>
-								<h2><a href="#">Standard Post With Image</a></h2>
-								<ul class="post-meta">
-									<li>By <a href="#">iThemesLab</a></li>
-									<li>December 30, 2013</li>
-									<li><a href="#">WordPress</a>, <a href="#">Graphic</a></li>
-									<li><a href="#">4 Comments</a></li>
-								</ul>
-								<p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.</p>
-								<a class="main-button" href="#">Leia Mais... <i class="fa fa-angle-right"></i></a>
-							</div>
-						</div>
-						<!-- End Post -->
-						
-						<!-- Start Post -->
-						<div class="blog-post link-post">
-							<!-- Post Content -->
-							<div class="post-content">
-								<div class="post-type"><i class="fa fa-link"></i></div>
-								<h2><a href="#">Link Post</a></h2>
-								<ul class="post-meta">
-									<li>By <a href="#">iThemesLab</a></li>
-									<li>December 30, 2013</li>
-									<li><a href="#">WordPress</a>, <a href="#">Graphic</a></li>
-									<li><a href="#">4 Comments</a></li>
-								</ul>
-								<p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.</p>
-								<a class="main-button" href="#">Leia Mais... <i class="fa fa-angle-right"></i></a>
-							</div>
-						</div>
-						<!-- End Post -->
 
-						<!-- Start Pagination -->
-						<div id="pagination">
-							<span class="all-pages">Página 1 de 3</span>
-							<span class="current page-num">1</span>
-							<a class="page-num" href="#">2</a>
-							<a class="page-num" href="#">3</a>
-							<a class="next-page" href="#">Próxima</a>
+
+
+							<div class="author-info clearfix">
+								<div class="author-image">
+									<a href="#"><img alt="" src="images/author.jpg" /></a>
+								</div>
+								<div class="author-bio">
+									<h4>Sobre o Autor</h4>
+									<p>Graduado em MEDICINA pela Faculdade de Ciências Médicas de Santos (1986), Mestre em Medicina (Gastroenterologia Cirúrgica)
+										pela Universidade Federal de São Paulo (2001), Doutor em Medicina (Gastroenterologia Cirúrgica) pela Universidade Federal de São
+										Paulo (2013).</p>
+								</div>
+							</div>
+						
 						</div>
-						<!-- End Pagination -->
+						<!-- End Post -->
 
 					</div>
-					<!-- End Blog Posts -->
+					<!-- End Blog Post Area -->
 					
 					
 					<!--Sidebar-->
