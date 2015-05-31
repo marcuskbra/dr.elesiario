@@ -124,7 +124,7 @@ $(document).ready(function ($) {
 	/*----------------------------------------------------*/
 	
 	////------- Touch Slider
-	/*var time = 4.4,
+	var time = 4.4,
 		$progressBar,
 		$bar,
 		$elem,
@@ -136,27 +136,26 @@ $(document).ready(function ($) {
 			sliderNav = $(this).attr('data-slider-navigation'),
 			sliderPag = $(this).attr('data-slider-pagination'),
 			sliderProgressBar = $(this).attr('data-slider-progress-bar');
-			
+		$elem = owl;
 		if ( sliderNav == 'false' || sliderNav == '0' ) {
-			var returnSliderNav = false
+			var returnSliderNav = false;
 		}else {
-			var returnSliderNav = true
+			var returnSliderNav = true;
 		}
 		
 		if ( sliderPag == 'true' || sliderPag == '1' ) {
-			var returnSliderPag = true
+			var returnSliderPag = true;
 		}else {
-			var returnSliderPag = false
+			var returnSliderPag = false;
 		}
 		
 		if ( sliderProgressBar == 'true' || sliderProgressBar == '1' ) {
-			var returnSliderProgressBar = progressBar
-			var returnAutoPlay = false
+			var returnSliderProgressBar = progressBar();
+			var returnAutoPlay = false;
 		}else {
-			var returnSliderProgressBar = false
-			var returnAutoPlay = true
+			var returnSliderProgressBar = false;
+			var returnAutoPlay = true;
 		}
-		
 		owl.owlCarousel({
 			navigation : returnSliderNav,
 			pagination: returnSliderPag,
@@ -175,8 +174,7 @@ $(document).ready(function ($) {
 		
 	});
 
-    function progressBar(elem){
-		$elem = elem;
+    function progressBar(){
 		buildProgressBar();
 		start();
     }
@@ -219,7 +217,7 @@ $(document).ready(function ($) {
     function moved(){
       clearTimeout(tick);
       start();
-    }*/
+    }
 	
 	
 	
