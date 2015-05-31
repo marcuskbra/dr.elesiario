@@ -3601,10 +3601,6 @@ and (min-width : 551px){
 	margin-bottom: 10px;
 }
 
-.blog-post.quote-post .qoute-box a {
-	color: #999;
-}
-
 .blog-post.quote-post .qoute-box h2 {
 	font-family: 'Lora', serif;
 	font-size: 18px;
@@ -3616,6 +3612,7 @@ and (min-width : 551px){
 }
 
 .blog-post.quote-post .qoute-box .qoute-author {
+	color: #999;
 	margin-left: 5px;
 }
 
