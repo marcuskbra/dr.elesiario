@@ -31,12 +31,6 @@
     <!-- Color CSS Styles  -->
     <link rel="stylesheet" type="text/css" href="css/colors/blue.min.css" title="blue" media="screen" />
 
-    <!-- Margo JS  -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
-    <script src="http://cdn.jsdelivr.net/bootstrap/3.3.2/js/bootstrap.min.js"></script>
-
-    <script type="text/javascript" src="js/scripts.min.js"></script>
-
     <!--[if IE 8]><script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
     <!--[if lt IE 9]><script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
 
@@ -143,7 +137,8 @@
                         <h4 class="classic-title"><span>Minhas Especialidades</span></h4>
 
 						<div class="team-member modern">
-							<div class="progress-label">Gastroenterologia</div>
+						
+							<div class="progress-label" data-toggle href="#collapse-1">Gastroenterologia</div>
 							<div class="progress">
 								<div class="progress-bar progress-bar-primary" data-progress-animation="96%" data-appear-animation-delay="500">
 									<span class="percentage"></span>
@@ -577,8 +572,13 @@
             <div class="dot2"></div>
         </div>
     </div>
-
-
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+    <script src="http://cdn.jsdelivr.net/bootstrap/3.3.2/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="js/scripts.min.js"></script>
+    <script type="text/javascript">
+    	$('.progress-label[data-toggle]').on('click', function(){
+    		$($(this).attr('href')).collapse('toggle');
+    	})
+	</script>
 </body>
-
 </html>
