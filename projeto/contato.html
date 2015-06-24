@@ -61,6 +61,12 @@
 
 <body>
 
+    <div id="loader">
+        <div class="spinner">
+            <div class="dot1"></div>
+            <div class="dot2"></div>
+        </div>
+    </div>
 
     <!-- Start Header Section -->
     <div class="hidden-header"></div>
@@ -130,28 +136,6 @@
             
             <div class="section container">
             
-	            <div class="col-md-6">
-					
-					<!-- Classic Heading -->
-					<h4 class="classic-title"><span>Unidade Guarulhos</span></h4>
-					
-					<!-- Divider -->
-					<div class="hr1" style="margin-bottom:10px;"></div>
-					
-					<dl class="dl-horizontal">
-						<dt><i class="fa fa-map-marker accent-color"></i> Endereço:</dt>
-						<dd>
-							<address>
-								Rua José Maurício, 241 - cj. 72<br>
-								Centro - Guarulhos - SP - CEP 07011-060
-							</address>
-						</dd>
-						<dt><i class="fa fa-phone accent-color"></i> Telefone:</dt>
-						<dd>(11) 2468-8970</dd>
-					</dl>	
-					
-				</div>
-	            
 				<div class="col-md-6">
 					
 					<!-- Classic Heading -->
@@ -164,20 +148,16 @@
 						<dt><i class="fa fa-map-marker accent-color"></i> Endereço:</dt>
 						<dd>
 							<address>
-								Rua Pedro de Toledo, 980 - cj. 93<br>
-								Vila Mariana - São Paulo - SP - CEP 04039-002
+								Rua Borges Lagoa, 1065 - cj. 86<br>
+								Vila Clementino - São Paulo - SP - CEP 04038-032
 							</address>
 						</dd>
 						<dt><i class="fa fa-phone accent-color"></i> Telefone:</dt>
-						<dd>(11) 5083-1478</dd>
+						<dd>(11) 5084-0982</dd>
 					</dl>	
 				</div>
 	            
-            </div>
-
-			<div class="container">
-			
-	            <div class="col-md-12">
+	            <div class="col-md-6">
 					<!-- Classic Heading -->
 					<h4 class="classic-title"><span><i class="fa fa-clock-o accent-color"></i> Horários de Atendimento</span></h4>
 					
@@ -188,9 +168,13 @@
 					</dl>
 					
 				</div>
-	            
-			
 			</div>
+
+
+		    <script src="http://maps.googleapis.com/maps/api/js?sensor=false" type="text/javascript"></script>
+		    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+		    <script src="http://cdn.jsdelivr.net/bootstrap/3.3.2/js/bootstrap.min.js"></script>
+		    <script type="text/javascript" src="js/scripts.min.js"></script>
 
 
             <div class="page-content">
@@ -198,48 +182,42 @@
                 <div class="row">
 
                     <!-- Start Map -->
-                    <div id="map" data-position-latitude="-23.466345" data-position-longitude="-46.532301"></div>
+                    <div id="map" data-position-latitude="-23.59676" data-position-longitude="-46.646986"></div>
                     <script>
                         (function ( $ ) {
                                     
-                                // Multiple Markers
-                                var markers = [
-                                    ['Unidade São Paulo', -23.598071, -46.646421],
-                                    ['Unidade Guarulhos', -23.466345, -46.532301]
-                                ];
+                            // Multiple Markers
+                            var markers = [
+                                ['Unidade São Paulo', -23.59676,-46.646986]
+                            ];
                         	
                             $.fn.CustomMap = function( options ) {
 
-                            	var locations = [
-                                                 ['Unidade São Paulo', -23.598071, -46.646421],
-                                                 ['Unidade Guarulhos', -23.466345, -46.532301]
-                            	               ];
+	                           var locations = [
+										 ['<strong>Unidade São Paulo</strong><span><br></span> Rua Borges Lagoa, 1065 - cj. 86', -23.59676,-46.646986]
+                   	               ];
 
               	               var map = new google.maps.Map(document.getElementById('map'), {
-              	                 zoom: 11,
-              	                 center: new google.maps.LatLng(-23.5234866, -46.625135),
+              	                 zoom: 15,
+              	                 center: new google.maps.LatLng(-23.59676, -46.646986),
               	                 mapTypeId: google.maps.MapTypeId.ROADMAP
               	               });
 
               	               var marker, i;
 
               	               for (i = 0; i < locations.length; i++) {  
-              	                 marker = new google.maps.Marker({
-              	                   position: new google.maps.LatLng(locations[i][1], locations[i][2]),
-              	                   map: map
-              	                 });
-
-              	                 google.maps.event.addListener(marker, 'click', (function(marker, i) {
-              	                   return function() {
-              	                	 var infowindow = new google.maps.InfoWindow({
-                                         content: locations[i][0]
-                                     });
-              	                     infowindow.open(map, marker);
-              	                   }
-              	                 })(marker, i));
-              	               }
+	              	                marker = new google.maps.Marker({
+	              	                   position: new google.maps.LatLng(locations[i][1], locations[i][2]),
+	              	                   map: map
+	              	               	});
+								
+	              	               var infowindow = new google.maps.InfoWindow({
+	                                   content: locations[i][0]
+	                               });
+        	                   	   infowindow.open(map, marker);
+              	                }
                             };
-                        }( jQuery ));
+                        }(jQuery));
 
                         jQuery(document).ready(function() {
                             jQuery('#map').CustomMap();
@@ -285,15 +263,5 @@
     <!-- Go To Top Link -->
     <a href="#" class="back-to-top"><i class="fa fa-angle-up"></i></a>
 
-    <div id="loader">
-        <div class="spinner">
-            <div class="dot1"></div>
-            <div class="dot2"></div>
-        </div>
-    </div>
-    <script src="http://maps.googleapis.com/maps/api/js?sensor=false" type="text/javascript"></script>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
-    <script src="http://cdn.jsdelivr.net/bootstrap/3.3.2/js/bootstrap.min.js"></script>
-    <script type="text/javascript" src="js/scripts.min.js"></script>
 </body>
 </html>
